@@ -22,19 +22,6 @@ I want to share a free simple script for helping us to announce what is our pyth
     </item>
     
     <item>
-      <title>Sobre Hugo</title>
-      <link>https://yudhastyawan.github.io/about/_index.br/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yudhastyawan.github.io/about/_index.br/</guid>
-      <description>Hugo é um gerador de site escrito em Go.
-Ele utiliza vários projetos open source, incluindo:
- Cobra Viper J Walter Weatherman Cast  Aprenda mais e contribua no GitHub.
-Setup Algumas curiosidades sobre Hugo:
- Feito com Go Loosely inspired by Jekyll Inicialmente desenvolvido by spf13 em um trem enquanto viajava de e para Manhattan. Codificado no Vim usando spf13-vim  Alguma pergunta ou sugestão? Está livre para abrir uma issue no GitHub ou perguntar no Twitter.</description>
-    </item>
-    
-    <item>
       <title>Contato</title>
       <link>https://yudhastyawan.github.io/contact/_index.br/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
