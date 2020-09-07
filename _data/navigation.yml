@@ -26,3 +26,18 @@ main:
 
   - title: "Tips and Tricks"
     url: /tags/#tips 
+
+  - title: "Fortran Hints"
+    url: /fortran/
+
+  - title: "GMT Hints"
+    url: /gmt/
+
+  - title: "Python Hints"
+    url: /python/
+
+  - title: "C++ Hints"
+    url: /cpp/ 
+
+  - title: "Linux Hints"
+    url: /linux/ 

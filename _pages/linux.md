@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Linux Hints"
+permalink: /linux/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+Here are some tips or hints related to Linux
+------
+1. [Working on Gist Command - Introduction to gist-paste](https://yudhastyawan.github.io/posts/2020/09/working-on-gist-command/)
