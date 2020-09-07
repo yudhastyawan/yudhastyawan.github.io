@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-07T15:20:16-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yudha Styawan’s Github</title><subtitle>everything about Yudha Styawan's interests</subtitle><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><entry><title type="html">Adding Code Snippet from Gist to Markdown</title><link href="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/" rel="alternate" type="text/html" title="Adding Code Snippet from Gist to Markdown" /><published>2020-09-08T00:00:00-07:00</published><updated>2020-09-08T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/09/adding_gist_on_markdown</id><content type="html" xml:base="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/">&lt;h2 id=&quot;how-can-we-insert-a-code-snippet-from-gist-to-markdown&quot;&gt;How can we insert a code snippet from Gist to Markdown?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-07T16:18:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yudha Styawan’s Github</title><subtitle>everything about Yudha Styawan's interests</subtitle><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><entry><title type="html">Adding Code Snippet from Gist to Markdown</title><link href="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/" rel="alternate" type="text/html" title="Adding Code Snippet from Gist to Markdown" /><published>2020-09-08T00:00:00-07:00</published><updated>2020-09-08T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/09/adding_gist_on_markdown</id><content type="html" xml:base="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/">&lt;h2 id=&quot;how-can-we-insert-a-code-snippet-from-gist-to-markdown&quot;&gt;How can we insert a code snippet from Gist to Markdown?&lt;/h2&gt;
 &lt;p&gt;I guess this is the common problem for a lot of new users that jump to the website static types especially related to Github or website generator like Jekyll or the others. So, let’s do this thing!&lt;/p&gt;
 
 &lt;p&gt;This is the pattern how to insert Gist (copy directly to the markdown file):&lt;/p&gt;
@@ -7,7 +7,189 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;This is the example result:
-&lt;script src=&quot;https://gist.github.com/yudhastyawan/dd9b44d6893ab0464ca86b423d4e07c4.js?file=example_grdinterpolate_gmt6dot1.sh&quot;&gt;&lt;/script&gt;&lt;/p&gt;</content><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><category term="tips" /><category term="gist" /><summary type="html">How can we insert a code snippet from Gist to Markdown? I guess this is the common problem for a lot of new users that jump to the website static types especially related to Github or website generator like Jekyll or the others. So, let’s do this thing!</summary></entry><entry><title type="html">Working on Gist Command</title><link href="http://localhost:4000/posts/2020/09/working-on-gist-command/" rel="alternate" type="text/html" title="Working on Gist Command" /><published>2020-09-07T00:00:00-07:00</published><updated>2020-09-07T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/09/working-on-gist-command</id><content type="html" xml:base="http://localhost:4000/posts/2020/09/working-on-gist-command/">&lt;p&gt;In this post, I will show you how to deal with Gist on terminal/command line. Why do we should use it? Because we have to do efficiently saving the code and managing the code snippet. That’s the idea! So that we should deal with the command line for the better work.&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/yudhastyawan/dd9b44d6893ab0464ca86b423d4e07c4.js?file=example_grdinterpolate_gmt6dot1.sh&quot;&gt;&lt;/script&gt;&lt;/p&gt;</content><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><category term="tips" /><category term="gist" /><summary type="html">How can we insert a code snippet from Gist to Markdown? I guess this is the common problem for a lot of new users that jump to the website static types especially related to Github or website generator like Jekyll or the others. So, let’s do this thing!</summary></entry><entry><title type="html">How Cool i3 Window Manager!</title><link href="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/" rel="alternate" type="text/html" title="How Cool i3 Window Manager!" /><published>2020-09-08T00:00:00-07:00</published><updated>2020-09-08T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/09/powerful_i3wm</id><content type="html" xml:base="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/">&lt;p&gt;As a Linux lover, have you ever try window manager like i3wm? If you didn’t try it yet, let me inform you how powerful it is.&lt;/p&gt;
+
+&lt;h2 id=&quot;i3wm&quot;&gt;i3wm&lt;/h2&gt;
+&lt;p&gt;i3 is a dynamic tilling window manager inspired by wmii that is primarily targeted at developers and advanced users &lt;sup&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/I3&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The goal is to control the appearance and placement of windows in a windowing system. It can be used as a part of Desktop Environment like GNOME or KDE, but also it can be used as standalone applications &lt;sup&gt;&lt;a href=&quot;https://opensource.com/article/18/8/i3-tiling-window-manager&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Currently I have used this window manager as standalone applications. If you want to do efficiently in your computer without worrying about the good viewer of desktop environment looks like, try it and let’s you enjoy to all these features!&lt;/p&gt;
+
+&lt;h2 id=&quot;why-should-we-use-i3-2&quot;&gt;Why should we use i3? &lt;sup&gt;&lt;a href=&quot;https://opensource.com/article/18/8/i3-tiling-window-manager&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Minimalism, you can enjoy your computer what only you want.&lt;/li&gt;
+  &lt;li&gt;Screen real estate, minimising a program is useless!&lt;/li&gt;
+  &lt;li&gt;Keyboard-driven workflow, mouse can be rarely used!&lt;/li&gt;
+  &lt;li&gt;Flexibility to set up by your own configuration&lt;/li&gt;
+  &lt;li&gt;Easy to control workspaces&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;controling-i3wm-using-keyboard-shortcuts&quot;&gt;Controling i3wm using Keyboard Shortcuts&lt;/h2&gt;
+&lt;p&gt;That’s the point! As a user who deep in the Linux environment, terminal is everything. All of the stuffs can be done efficiently by using command lines. Okay, these are some configurations to do in i3wm. In this session, I used &lt;a href=&quot;https://cheatography.com/davechild/cheat-sheets/i3-window-manager/&quot;&gt;cheatography.com&lt;/a&gt; as a reference to see the default of i3 window manager keyboard shortcuts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controlling i3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Keyboard key&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+Shift+r&lt;/td&gt;
+      &lt;td&gt;Reload i3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+Shift+e&lt;/td&gt;
+      &lt;td&gt;Exit i3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; Reload i3 is important if you want to reset or update the configuration file on i3 so that you can use it directly without restarting the computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Manage Windows&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Keyboard key&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+Shift+q&lt;/td&gt;
+      &lt;td&gt;Kill current window&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+Shift+num&lt;/td&gt;
+      &lt;td&gt;Move current window to workspace number num&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+Shift+f&lt;/td&gt;
+      &lt;td&gt;Set window to floating mode&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+j&lt;/td&gt;
+      &lt;td&gt;Focus on window to the left&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+k&lt;/td&gt;
+      &lt;td&gt;Focus on window above&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+l&lt;/td&gt;
+      &lt;td&gt;Focus on window below&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+;&lt;/td&gt;
+      &lt;td&gt;Focus on window to the right&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+Shift+j&lt;/td&gt;
+      &lt;td&gt;Move window left&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+Shift+k&lt;/td&gt;
+      &lt;td&gt;Move window up&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+Shift+l&lt;/td&gt;
+      &lt;td&gt;Move window down&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+Shift+;&lt;/td&gt;
+      &lt;td&gt;Move window right&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; I am not familiar with the default kill current window, so I change the key with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl+F4&lt;/code&gt; in i3 config file. You can check the file in the directory &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.config/i3/config&lt;/code&gt;. In addition, focusing on certain window can be done by using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$mod+{arrow}&lt;/code&gt;. Great!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Workspaces&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Keyboard key&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+num&lt;/td&gt;
+      &lt;td&gt;Switch to workspace num&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+Shift+num&lt;/td&gt;
+      &lt;td&gt;Move current window to workspace number num&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Containers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Keyboard key&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+e&lt;/td&gt;
+      &lt;td&gt;Default container&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+h&lt;/td&gt;
+      &lt;td&gt;Horizontal split container&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+v&lt;/td&gt;
+      &lt;td&gt;Vertical split container&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+w&lt;/td&gt;
+      &lt;td&gt;Tabbed container&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+f&lt;/td&gt;
+      &lt;td&gt;Toggle fullscreen mode&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+s&lt;/td&gt;
+      &lt;td&gt;Toggle stacking mode&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+S­hif­t+Space&lt;/td&gt;
+      &lt;td&gt;Toggle floating mode&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; These are powerful keyboard shortcuts for managing the container.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Applications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Keyboard key&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+enter&lt;/td&gt;
+      &lt;td&gt;Open new terminal window&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$mod+d&lt;/td&gt;
+      &lt;td&gt;Open dmenu&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><category term="review" /><category term="cheat sheet" /><summary type="html">As a Linux lover, have you ever try window manager like i3wm? If you didn’t try it yet, let me inform you how powerful it is.</summary></entry><entry><title type="html">Working on Gist Command</title><link href="http://localhost:4000/posts/2020/09/working-on-gist-command/" rel="alternate" type="text/html" title="Working on Gist Command" /><published>2020-09-07T00:00:00-07:00</published><updated>2020-09-07T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/09/working-on-gist-command</id><content type="html" xml:base="http://localhost:4000/posts/2020/09/working-on-gist-command/">&lt;p&gt;In this post, I will show you how to deal with Gist on terminal/command line. Why do we should use it? Because we have to do efficiently saving the code and managing the code snippet. That’s the idea! So that we should deal with the command line for the better work.&lt;/p&gt;
 
 &lt;h1 id=&quot;gist-paste&quot;&gt;gist-paste&lt;/h1&gt;
 &lt;p&gt;For the first understanding, see the description below based on the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste --help&lt;/code&gt;:&lt;/p&gt;
