@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-07T08:14:13-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yudha Styawan GitHub Website</title><subtitle>everything about Yudha Styawan's interests</subtitle><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><entry><title type="html">Working on Gist Command</title><link href="http://localhost:4000/posts/2020/09/working-on-gist-command/" rel="alternate" type="text/html" title="Working on Gist Command" /><published>2020-09-07T00:00:00-07:00</published><updated>2020-09-07T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/09/working-on-gist-command</id><content type="html" xml:base="http://localhost:4000/posts/2020/09/working-on-gist-command/">&lt;p&gt;In this post, I will show you how to deal with Gist on terminal/command line. Why do we should use it? Because we have to do efficiently saving the code and managing the code snippet. That’s the idea! So that we should deal with the command line for the better work.&lt;/p&gt;
+
+&lt;h1 id=&quot;gist-paste&quot;&gt;gist-paste&lt;/h1&gt;
+&lt;p&gt;For the first understanding, see the description below based on the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste --help&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Usage: gist-paste &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt;|-c|-e] &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-R&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; DESC] &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; URL]
+                          &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--skip-empty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-P&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; NAME|-t EXT]&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; FILE&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
+       gist-paste &lt;span class=&quot;nt&quot;&gt;--login&lt;/span&gt;
+       gist-paste &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt;|-r]
+
+        &lt;span class=&quot;nt&quot;&gt;--login&lt;/span&gt;                      Authenticate gist on this computer.
+    &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--filename&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;NAME.EXTENSION]  Sets the filename and syntax type.
+    &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;EXTENSION]           Sets the file extension and syntax type.
+    &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--private&lt;/span&gt;                    Makes your gist private.
+        &lt;span class=&quot;nt&quot;&gt;--no-private&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--description&lt;/span&gt; DESCRIPTION    Adds a description to your gist.
+    &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--shorten&lt;/span&gt;                    Shorten the gist URL using git.io.
+    &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--update&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; URL | ID &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;        Update an existing gist.
+    &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--copy&lt;/span&gt;                       Copy the resulting URL to the clipboard
+    &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--embed&lt;/span&gt;                      Copy the embed code &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the gist to the clipboard
+    &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--open&lt;/span&gt;                       Open the resulting URL &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;a browser
+        &lt;span class=&quot;nt&quot;&gt;--no-open&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;--skip-empty&lt;/span&gt;                 Skip gisting empty files
+    &lt;span class=&quot;nt&quot;&gt;-P&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--paste&lt;/span&gt;                      Paste from the clipboard to gist
+    &lt;span class=&quot;nt&quot;&gt;-R&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--raw&lt;/span&gt;                        Display raw URL of the new gist
+    &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;USER]                List all gists &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;user
+    &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--read&lt;/span&gt; ID &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;FILENAME]         Read a gist and print out the contents
+        &lt;span class=&quot;nt&quot;&gt;--delete&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; URL | ID &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;        Delete a gist
+    &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--help&lt;/span&gt;                       Show this message.
+    &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;                    Print the version.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;based the reference from &lt;a href=&quot;http://manpages.ubuntu.com/manpages/trusty/man1/gist-paste.1.html&quot;&gt;manpages.ubuntu.com&lt;/a&gt;, we have to install firstly by using this command (if Ruby has been installed on your computer):&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install gist&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, login with your Github account by using this command:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste --login&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;until we can see and inputing the username and password on the command line:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Obtaining OAuth2 access_token from github.
+GitHub username: 
+GitHub password:
+2-factor auth code:
+Success! https://github.com/settings/applications
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Viola! You have been already doing some stuffs in gist!!!&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-deal-with-gist-paste&quot;&gt;How to deal with &lt;em&gt;gist-paste&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;copying and modifying some stuffs from the reference, this is the powerful command examples:&lt;/p&gt;
+
+&lt;p&gt;To upload the contents of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$filename&lt;/code&gt; just:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste $filename&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Upload multiple files:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gist-paste $filename1 $filename2 $filename3 
+gist-paste *.$extension
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;By default it reads from STDIN, and you can set a filename with -f.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste -f test.rb &amp;lt;$filename&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Alternatively, you can just paste from the clipboard (&lt;strong&gt;but you need to make sure &lt;em&gt;xclip&lt;/em&gt; has to be installed on your computer&lt;/strong&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste -P&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;but if you didn’t install yet &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xclip&lt;/code&gt;, you can install using package manager on your OS distribution and then put this following &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alias&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.bashrc&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Use -p to make the gist private:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste -p $filename&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Use -d to add a description:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste -d &quot;the brief description of your gist&quot; $filename&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can update existing gists with -u with ID of gist:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste -u 42f2c239d2eb57299408 $filename&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you´d like to copy the resulting URL to your clipboard, use -c.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste -c &amp;lt;$filename&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you´d like to copy the resulting embeddable URL to your clipboard, use -e.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste -e &amp;lt;$filename&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And you can just ask gist-paste to open a browser window directly with -o.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste -o &amp;lt;$filename&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, if we want to see the list of our gists, we can use this command:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gist-paste --list&lt;/code&gt;&lt;/p&gt;</content><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><category term="tips" /><category term="gist" /><summary type="html">In this post, I will show you how to deal with Gist on terminal/command line. Why do we should use it? Because we have to do efficiently saving the code and managing the code snippet. That’s the idea! So that we should deal with the command line for the better work.</summary></entry></feed>
