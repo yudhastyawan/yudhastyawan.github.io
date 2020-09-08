@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Connecting my repository and the other stuffs on one website
+Connecting my repositories and the other stuffs on one website
 ------
 There are a lot of thing that I have to manage for remembering what I am doing currently so that needing the website to handle these issues is the necessary for me and organizing my repositories or some tips during my activities in one box.
 
@@ -33,4 +33,4 @@ LinkedIn: [Yudha Styawan LinkedIn](https://www.linkedin.com/in/yudha-styawan-b34
 
 Researchgate: [Yudha Styawan Researchgate](https://www.researchgate.net/profile/Yudha_Styawan)
 
-or you can contact me with an non-official email:  [yudhastyawan@gmail.com](mailto:yudhastyawan@gmail.com)
+or you can contact me with this non-official email:  [yudhastyawan@gmail.com](mailto:yudhastyawan@gmail.com)
