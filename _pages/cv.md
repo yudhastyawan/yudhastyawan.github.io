@@ -12,7 +12,7 @@ redirect_from:
 Education
 ------
 * S.T. (Bachelor of Engineering) in Geophysical Engineering, Institut Teknologi Sumatera, 2018
-* Currently as Master Student in Geophysics, Department of Earth Sciences, National Central University, Taiwan
+* Currently as a Master Student in Geophysics, Department of Earth Sciences, National Central University, Taiwan, 2019 - now
 
 Work experience
 ------
