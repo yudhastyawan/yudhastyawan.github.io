@@ -19,7 +19,7 @@
 
 
 
-<title>How Cool i3 Window Manager! - Yudha Styawan’s Github</title>
+<title>Adding Code Snippet from Gist to Markdown - Yudha Styawan’s Github</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Yudha Styawan's Github">
-<meta property="og:title" content="How Cool i3 Window Manager!">
+<meta property="og:title" content="Adding Code Snippet from Gist to Markdown">
 
 
   <link rel="canonical" href="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="As a Linux lover, have you ever try window manager like i3wm? If you didn’t try it yet, let me inform you how powerful it is.">
+  <meta property="og:description" content="How can we insert a code snippet from Gist to Markdown?I guess this is the common problem for a lot of new users that jump to the website static types especially related to Github or website generator like Jekyll or the others. So, let’s do this thing!">
 
 
 
@@ -271,22 +271,22 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="How Cool i3 Window Manager!">
-    <meta itemprop="description" content="As a Linux lover, have you ever try window manager like i3wm? If you didn’t try it yet, let me inform you how powerful it is.">
+    <meta itemprop="headline" content="Adding Code Snippet from Gist to Markdown">
+    <meta itemprop="description" content="How can we insert a code snippet from Gist to Markdown?I guess this is the common problem for a lot of new users that jump to the website static types especially related to Github or website generator like Jekyll or the others. So, let’s do this thing!">
     <meta itemprop="datePublished" content="September 08, 2020">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">How Cool i3 Window Manager!
+          <h1 class="page__title" itemprop="headline">Adding Code Snippet from Gist to Markdown
 </h1>
           
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
 
 
   
-	  2 minute read
+	  less than 1 minute read
 	
 </p>
           
@@ -303,189 +303,16 @@
       
 
       <section class="page__content" itemprop="text">
-        <p>As a Linux lover, have you ever try window manager like i3wm? If you didn’t try it yet, let me inform you how powerful it is.</p>
+        <h2 id="how-can-we-insert-a-code-snippet-from-gist-to-markdown">How can we insert a code snippet from Gist to Markdown?</h2>
+<p>I guess this is the common problem for a lot of new users that jump to the website static types especially related to Github or website generator like Jekyll or the others. So, let’s do this thing!</p>
 
-<h2 id="i3wm">i3wm</h2>
-<p>i3 is a dynamic tilling window manager inspired by wmii that is primarily targeted at developers and advanced users <sup><a href="https://wiki.archlinux.org/index.php/I3">1</a></sup>. The goal is to control the appearance and placement of windows in a windowing system. It can be used as a part of Desktop Environment like GNOME or KDE, but also it can be used as standalone applications <sup><a href="https://opensource.com/article/18/8/i3-tiling-window-manager">2</a></sup>. Currently I have used this window manager as standalone applications. If you want to do efficiently in your computer without worrying about the good viewer of desktop environment looks like, try it and let’s you enjoy to all these features!</p>
+<p>This is the pattern how to insert Gist (copy directly to the markdown file):</p>
 
-<h2 id="why-should-we-use-i3-2">Why should we use i3? <sup><a href="https://opensource.com/article/18/8/i3-tiling-window-manager">2</a></sup></h2>
-<ol>
-  <li>Minimalism, you can enjoy your computer what only you want.</li>
-  <li>Screen real estate, minimising a program is useless!</li>
-  <li>Keyboard-driven workflow, mouse can be rarely used!</li>
-  <li>Flexibility to set up by your own configuration</li>
-  <li>Easy to control workspaces</li>
-</ol>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script src="https://gist.github.com/username/ID.js?file=filename.extension"&gt;&lt;/script&gt;
+</code></pre></div></div>
 
-<h2 id="controling-i3wm-using-keyboard-shortcuts">Controling i3wm using Keyboard Shortcuts</h2>
-<p>That’s the point! As a user who deep in the Linux environment, terminal is everything. All of the stuffs can be done efficiently by using command lines. Okay, these are some configurations to do in i3wm. In this session, I used <a href="https://cheatography.com/davechild/cheat-sheets/i3-window-manager/">cheatography.com</a> as a reference to see the default of i3 window manager keyboard shortcuts.</p>
-
-<p><strong>Controlling i3</strong></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Keyboard key</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>$mod+Shift+r</td>
-      <td>Reload i3</td>
-    </tr>
-    <tr>
-      <td>$mod+Shift+e</td>
-      <td>Exit i3</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><em>Note:</em> Reload i3 is important if you want to reset or update the configuration file on i3 so that you can use it directly without restarting the computer.</p>
-
-<p><strong>Manage Windows</strong></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Keyboard key</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>$mod+Shift+q</td>
-      <td>Kill current window</td>
-    </tr>
-    <tr>
-      <td>$mod+Shift+num</td>
-      <td>Move current window to workspace number num</td>
-    </tr>
-    <tr>
-      <td>$mod+Shift+f</td>
-      <td>Set window to floating mode</td>
-    </tr>
-    <tr>
-      <td>$mod+j</td>
-      <td>Focus on window to the left</td>
-    </tr>
-    <tr>
-      <td>$mod+k</td>
-      <td>Focus on window above</td>
-    </tr>
-    <tr>
-      <td>$mod+l</td>
-      <td>Focus on window below</td>
-    </tr>
-    <tr>
-      <td>$mod+;</td>
-      <td>Focus on window to the right</td>
-    </tr>
-    <tr>
-      <td>$mod+Shift+j</td>
-      <td>Move window left</td>
-    </tr>
-    <tr>
-      <td>$mod+Shift+k</td>
-      <td>Move window up</td>
-    </tr>
-    <tr>
-      <td>$mod+Shift+l</td>
-      <td>Move window down</td>
-    </tr>
-    <tr>
-      <td>$mod+Shift+;</td>
-      <td>Move window right</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><em>Note:</em> I am not familiar with the default kill current window, so I change the key with <code class="language-plaintext highlighter-rouge">Ctrl+F4</code> in i3 config file. You can check the file in the directory <code class="language-plaintext highlighter-rouge">~/.config/i3/config</code>. In addition, focusing on certain window can be done by using <code class="language-plaintext highlighter-rouge">$mod+{arrow}</code>. Great!</p>
-
-<p><strong>Workspaces</strong></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Keyboard key</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>$mod+num</td>
-      <td>Switch to workspace num</td>
-    </tr>
-    <tr>
-      <td>$mod+Shift+num</td>
-      <td>Move current window to workspace number num</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><strong>Containers</strong></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Keyboard key</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>$mod+e</td>
-      <td>Default container</td>
-    </tr>
-    <tr>
-      <td>$mod+h</td>
-      <td>Horizontal split container</td>
-    </tr>
-    <tr>
-      <td>$mod+v</td>
-      <td>Vertical split container</td>
-    </tr>
-    <tr>
-      <td>$mod+w</td>
-      <td>Tabbed container</td>
-    </tr>
-    <tr>
-      <td>$mod+f</td>
-      <td>Toggle fullscreen mode</td>
-    </tr>
-    <tr>
-      <td>$mod+s</td>
-      <td>Toggle stacking mode</td>
-    </tr>
-    <tr>
-      <td>$mod+S­hif­t+Space</td>
-      <td>Toggle floating mode</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><em>Note:</em> These are powerful keyboard shortcuts for managing the container.</p>
-
-<p><strong>Applications</strong></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Keyboard key</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>$mod+enter</td>
-      <td>Open new terminal window</td>
-    </tr>
-    <tr>
-      <td>$mod+d</td>
-      <td>Open dmenu</td>
-    </tr>
-  </tbody>
-</table>
+<p>This is the example result:
+<script src="https://gist.github.com/yudhastyawan/dd9b44d6893ab0464ca86b423d4e07c4.js?file=example_grdinterpolate_gmt6dot1.sh"></script></p>
 
         
       </section>
@@ -510,11 +337,11 @@
     
       
       
-      <a href="http://localhost:4000/tags/#cheat-sheet" class="page__taxonomy-item" rel="tag">cheat sheet</a><span class="sep">, </span>
+      <a href="http://localhost:4000/tags/#gist" class="page__taxonomy-item" rel="tag">gist</a><span class="sep">, </span>
     
       
       
-      <a href="http://localhost:4000/tags/#review" class="page__taxonomy-item" rel="tag">review</a>
+      <a href="http://localhost:4000/tags/#tips" class="page__taxonomy-item" rel="tag">tips</a>
     
     </span>
   </p>
@@ -543,11 +370,12 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/" class="pagination--pager" title="Adding Code Snippet from Gist to Markdown
+      <a href="http://localhost:4000/posts/2020/09/working-on-gist-command/" class="pagination--pager" title="Working on Gist Command
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="http://localhost:4000/posts/2020/09/powerful_i3wm/" class="pagination--pager" title="How Cool i3 Window Manager!
+">Next</a>
     
   </nav>
 
@@ -576,7 +404,7 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/" rel="permalink">Adding Code Snippet from Gist to Markdown
+        <a href="http://localhost:4000/posts/2020/09/powerful_i3wm/" rel="permalink">How Cool i3 Window Manager!
 </a>
       
     </h2>
@@ -586,7 +414,7 @@
 
 
   
-	  less than 1 minute read
+	  3 minute read
 	
 </p>
     
@@ -596,8 +424,7 @@
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><h2 id="how-can-we-insert-a-code-snippet-from-gist-to-markdown">How can we insert a code snippet from Gist to Markdown?</h2>
-<p>I guess this is the common problem for a lot of new users that jump to the website static types especially related to Github or website generator like Jekyll or the others. So, let’s do this thing!</p>
+    <p class="archive__item-excerpt" itemprop="description"><p>As a Linux lover, have you ever try window manager like i3wm? If you didn’t try it yet, let me inform you how powerful it is.</p>
 
 </p>
     
