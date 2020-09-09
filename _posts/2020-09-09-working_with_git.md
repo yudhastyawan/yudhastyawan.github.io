@@ -123,3 +123,14 @@ alias graph2="git log --all  --graph --abbrev-commit --decorate --format=format:
 alias graph3="git log --all  --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'"
 ```
 
+## Additional References
+
+These are some references that might be helpful for you:
+
+1. [git-scm.com](https://git-scm.com/docs/gittutorial)
+2. [tutorialspoint.com](https://www.tutorialspoint.com/git/git_basic_concepts.htm)
+3. [bitsofco.de](https://bitsofco.de/git-aliases-for-lazy-developers/)
+4. [stackoverflow.com](https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git/11594406)
+5. [gitignore](https://www.toptal.com/developers/gitignore)
+6. [Git and Github (Web Programming UNPAS Playlist)](https://www.youtube.com/watch?v=lTMZxWMjXQU&list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf) (Youtube playlist in Indonesian version)
+
