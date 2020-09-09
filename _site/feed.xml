@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-07T17:50:23-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yudha Styawan’s Github</title><subtitle>everything about Yudha Styawan's interests</subtitle><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><entry><title type="html">Adding Code Snippet from Gist to Markdown</title><link href="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/" rel="alternate" type="text/html" title="Adding Code Snippet from Gist to Markdown" /><published>2020-09-08T00:00:00-07:00</published><updated>2020-09-08T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/09/adding_gist_on_markdown</id><content type="html" xml:base="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/">&lt;h2 id=&quot;how-can-we-insert-a-code-snippet-from-gist-to-markdown&quot;&gt;How can we insert a code snippet from Gist to Markdown?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-09T00:38:51-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yudha Styawan’s Github</title><subtitle>everything about Yudha Styawan's interests</subtitle><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><entry><title type="html">Enjoying with Git</title><link href="http://localhost:4000/posts/2020/09/working_with_git/" rel="alternate" type="text/html" title="Enjoying with Git" /><published>2020-09-09T00:00:00-07:00</published><updated>2020-09-09T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/09/working_with_git</id><content type="html" xml:base="http://localhost:4000/posts/2020/09/working_with_git/">&lt;p&gt;I am loving to manage the codes or the works as well as possible. That’s the thing! In this blog I would like to show you about how to work with Git in general. Let’s do it!&lt;/p&gt;
+
+&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;What is Git?&lt;/strong&gt; Git is a distributed revision control and source code management system with an emphasis on speed&lt;sup&gt;&lt;a href=&quot;https://www.tutorialspoint.com/git/index.htm&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Historically, Git is initially used for the development of Linux by Linus Torvald and then currently being widely used for managing almost all of the codes for making sure the project can be distributed to the team properly and making easily used for the collaboration. Currently, Git is a free software distributed under the terms of the GNU General Public License version 2&lt;sup&gt;&lt;a href=&quot;https://www.tutorialspoint.com/git/index.htm&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.  Before we turn into the Git, let’s talk about Version Control System (VCS)!&lt;/p&gt;
+
+&lt;h2 id=&quot;version-control-system&quot;&gt;Version Control System&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Version Control System (VCS)&lt;/strong&gt; is a software that helps software developer to work together and maintain a complete history of their work&lt;sup&gt;&lt;a href=&quot;https://www.tutorialspoint.com/git/git_basic_concepts.htm&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. According to &lt;a href=&quot;https://www.tutorialspoint.com/git/git_basic_concepts.htm&quot;&gt;tutorialspoint.com&lt;/a&gt;, generally, there are some functions of VCS, they are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Allows developers to work simultaneously.&lt;/li&gt;
+  &lt;li&gt;Does not allow overwriting each other’s changes.&lt;/li&gt;
+  &lt;li&gt;Maintains a history of every version.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-basic-workflow-of-git&quot;&gt;The basic workflow of Git&lt;/h2&gt;
+
+&lt;p&gt;Here is the simple basic workflow of Git:&lt;/p&gt;
+
+&lt;center&gt;&lt;b&gt;Create/Modify file[s] from the working directory&lt;/b&gt;&lt;/center&gt;
+
+&lt;center&gt;&lt;b&gt;Add the files to the staging area&lt;/b&gt;&lt;/center&gt;
+
+&lt;center&gt;&lt;b&gt;Perform commit operation&lt;/b&gt;&lt;/center&gt;
+
+&lt;p&gt;done!&lt;/p&gt;
+
+&lt;p&gt;You have to be familiar with these operations, because you will use that workflow for every changes that you have done.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-configurations&quot;&gt;The configurations&lt;/h2&gt;
+
+&lt;p&gt;The first thing after you install Git to your computer, you need to introduce your self into Git so that Git knows you and record your name for every things that you do in the projects.&lt;/p&gt;
+
+&lt;p&gt;You can use these examples to configure your identity to Git&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.name &lt;span class=&quot;s2&quot;&gt;&quot;Your Name Comes Here&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.email you@yourdomain.example.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and changing “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Your Name Comes Here&lt;/code&gt;” and “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;you@yourdomain.example.com&lt;/code&gt;” with your name and email.&lt;/p&gt;
+
+&lt;h2 id=&quot;working-with-a-new-project&quot;&gt;Working with a new project&lt;/h2&gt;
+
+&lt;p&gt;If you want to crate a new project, you can firstly make a folder, for the example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir project&lt;/code&gt; and type this command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git init&lt;/code&gt; after you get in the folder (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd project&lt;/code&gt;). These are the all commands:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;project
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;project
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Git will reply&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Initialized empty Git repository &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; .git/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;or if you have a project that has been created before, you can simply use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git init&lt;/code&gt; in the project folder.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Next…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have been finished your work, you can add the modified or created file[s] to the staging area by using&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;or if you want to add a specific file, you can add it individually, for the example:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add example.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;After that, the files (modified/created version) are now stored in a temporary staging area. You can permanently store the contents in the repository with&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;your description of the updated or created files / somethings that you want to remember for each commit&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;cheat-sheet&quot;&gt;Cheat sheet&lt;/h2&gt;
+
+&lt;p&gt;That make easy! If you are lazy to use the complete command, you can simply using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alias&lt;/code&gt; to get the minimized version of the commands&lt;sup&gt;&lt;a href=&quot;https://bitsofco.de/git-aliases-for-lazy-developers/&quot;&gt;3&lt;/a&gt;,&lt;a href=&quot;https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git/11594406&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. Check it out!&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Git&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git init &amp;amp;&amp;amp; gac 'Initial commit'&quot;&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git status&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;glog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'git log --graph --all --decorate'&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git add . &amp;amp;&amp;amp; git commit -m&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# + commit message&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git push&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# + remote &amp;amp; branch names&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gpo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git push origin&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# + branch name&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gpom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git push origin master&quot;&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git pull&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# + remote &amp;amp; branch names&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;glo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git pull origin&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# + branch name&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;glom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git pull origin master&quot;&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git branch&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# + branch name&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git checkout&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# + branch name&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gcb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git checkout -b&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# + branch name&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# git visualizing&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;graph1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git log --all --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;graph2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git log --all  --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;graph3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;git log --all  --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an &amp;lt;%ae&amp;gt; %C(reset) %C(dim white)(committer: %cn &amp;lt;%ce&amp;gt;)%C(reset)'&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><category term="review" /><category term="cheat sheet" /><summary type="html">I am loving to manage the codes or the works as well as possible. That’s the thing! In this blog I would like to show you about how to work with Git in general. Let’s do it!</summary></entry><entry><title type="html">Adding Code Snippet from Gist to Markdown</title><link href="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/" rel="alternate" type="text/html" title="Adding Code Snippet from Gist to Markdown" /><published>2020-09-08T00:00:00-07:00</published><updated>2020-09-08T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/09/adding_gist_on_markdown</id><content type="html" xml:base="http://localhost:4000/posts/2020/09/adding_gist_on_markdown/">&lt;h2 id=&quot;how-can-we-insert-a-code-snippet-from-gist-to-markdown&quot;&gt;How can we insert a code snippet from Gist to Markdown?&lt;/h2&gt;
 &lt;p&gt;I guess this is the common problem for a lot of new users that jump to the website static types especially related to Github or website generator like Jekyll or the others. So, let’s do this thing!&lt;/p&gt;
 
 &lt;p&gt;This is the pattern how to insert Gist (copy directly to the markdown file):&lt;/p&gt;
@@ -10,7 +112,7 @@
 &lt;script src=&quot;https://gist.github.com/yudhastyawan/dd9b44d6893ab0464ca86b423d4e07c4.js?file=example_grdinterpolate_gmt6dot1.sh&quot;&gt;&lt;/script&gt;&lt;/p&gt;</content><author><name>Yudha Styawan</name><email>yudha.styawan@staff.itera.ac.id</email></author><category term="tips" /><category term="gist" /><summary type="html">How can we insert a code snippet from Gist to Markdown? I guess this is the common problem for a lot of new users that jump to the website static types especially related to Github or website generator like Jekyll or the others. So, let’s do this thing!</summary></entry><entry><title type="html">How Cool i3 Window Manager!</title><link href="http://localhost:4000/posts/2020/09/powerful_i3wm/" rel="alternate" type="text/html" title="How Cool i3 Window Manager!" /><published>2020-09-08T00:00:00-07:00</published><updated>2020-09-08T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/09/powerful_i3wm</id><content type="html" xml:base="http://localhost:4000/posts/2020/09/powerful_i3wm/">&lt;p&gt;As a Linux lover, have you ever try window manager like i3wm? If you didn’t try it yet, let me inform you how powerful it is.&lt;/p&gt;
 
 &lt;h2 id=&quot;i3wm&quot;&gt;i3wm&lt;/h2&gt;
-&lt;p&gt;i3 is a dynamic tilling window manager inspired by wmii that is primarily targeted at developers and advanced users &lt;sup&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/I3&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The goal is to control the appearance and placement of windows in a windowing system. It can be used as a part of Desktop Environment like GNOME or KDE, but also it can be used as standalone applications &lt;sup&gt;&lt;a href=&quot;https://opensource.com/article/18/8/i3-tiling-window-manager&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Currently I have used this window manager as standalone applications. If you want to do efficiently in your computer without worrying about the good viewer of desktop environment looks like, try it and let’s you enjoy to all these features!&lt;/p&gt;
+&lt;p&gt;i3 is a dynamic tilling window manager inspired by wmii that is primarily targeted at developers and advanced users &lt;sup&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/I3&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The goal is to control the appearance and placement of windows in a windowing system. It can be used as a part of Desktop Environment like GNOME or KDE, but also it can be used as standalone applications &lt;sup&gt;&lt;a href=&quot;https://opensource.com/article/18/8/i3-tiling-window-manager&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Currently I have used this window manager as a kind of standalone applications. If you want to do efficiently in your computer without worrying about the good viewer of desktop environment looks like, try it and let you enjoy to all these features!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/i3wm.png&quot; alt=&quot;Overview of i3 Window Manager&quot; title=&quot;Overview of i3 Window Manager&quot; /&gt;&lt;/p&gt;
 

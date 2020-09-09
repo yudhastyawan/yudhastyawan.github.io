@@ -11,7 +11,7 @@ As a Linux lover, have you ever try window manager like i3wm? If you didn't try 
 
 i3wm
 ------
-i3 is a dynamic tilling window manager inspired by wmii that is primarily targeted at developers and advanced users <sup>[1](https://wiki.archlinux.org/index.php/I3)</sup>. The goal is to control the appearance and placement of windows in a windowing system. It can be used as a part of Desktop Environment like GNOME or KDE, but also it can be used as standalone applications <sup>[2](https://opensource.com/article/18/8/i3-tiling-window-manager)</sup>. Currently I have used this window manager as standalone applications. If you want to do efficiently in your computer without worrying about the good viewer of desktop environment looks like, try it and let's you enjoy to all these features!
+i3 is a dynamic tilling window manager inspired by wmii that is primarily targeted at developers and advanced users <sup>[1](https://wiki.archlinux.org/index.php/I3)</sup>. The goal is to control the appearance and placement of windows in a windowing system. It can be used as a part of Desktop Environment like GNOME or KDE, but also it can be used as standalone applications <sup>[2](https://opensource.com/article/18/8/i3-tiling-window-manager)</sup>. Currently I have used this window manager as a kind of standalone applications. If you want to do efficiently in your computer without worrying about the good viewer of desktop environment looks like, try it and let you enjoy to all these features!
 
 ![Overview of i3 Window Manager](/images/i3wm.png "Overview of i3 Window Manager")
 
