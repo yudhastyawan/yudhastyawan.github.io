@@ -17,7 +17,7 @@ This is my personal website for everything that I put in. Thank you if you will 
 
 Including my curriculum vitae
 ------
-If you have an interest with what what I have been done or I am doing for the time that you see, you can check my curriculum vitae or directly to see my linkedIn and Researchgate profil to see the further detail. Thank you in advance for your kind attention.
+If you have an interest with what what I have been done or I am doing for the time that you see, you can check my curriculum vitae or directly see my linkedIn and Researchgate profil to know the further detail. Thank you in advance for your kind attention.
 
 
 Feel free to join the collaboration

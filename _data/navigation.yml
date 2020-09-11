@@ -41,3 +41,9 @@ main:
 
   - title: "Linux Hints"
     url: /linux/ 
+
+  - title: "Geophysic Hints"
+    url: /geophysics/
+
+  - title: "Geology Hints"
+    url: /geology/ 

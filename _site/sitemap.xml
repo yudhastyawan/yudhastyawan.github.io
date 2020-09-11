@@ -80,6 +80,12 @@
 <loc>http://localhost:4000/fortran/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/geology/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/geophysics/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/gmt/</loc>
 </url>
 <url>
