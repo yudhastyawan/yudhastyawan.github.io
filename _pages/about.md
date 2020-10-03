@@ -29,7 +29,7 @@ Contact
 ------
 Official Email: [yudha.styawan@staff.itera.ac.id](mailto:yudha.styawan@staff.itera.ac.id) 
 
-LinkedIn: [Yudha Styawan LinkedIn](https://www.linkedin.com/in/yudha-styawan-b346bb114/)
+LinkedIn: [Yudha Styawan LinkedIn](https://www.linkedin.com/in/yudhastyawan/)
 
 Researchgate: [Yudha Styawan Researchgate](https://www.researchgate.net/profile/Yudha_Styawan)
 
