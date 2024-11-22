@@ -24,15 +24,19 @@ Education
 Professional Experience
 ------
 Lecturer
+
 Geophysical Engineering, Faculty of Industrial Technology, Institut Teknologi Sumatera
+
 2022 – Present
 
 	•	Teaching undergraduate courses in geophysics and engineering.
 	•	Mentoring students in practical applications and research projects.
-	•	Research focus areas: seismic data analysis, geophysical tools optimization, and computational modeling in geophysics.
+	•	Research focus areas: seismic data analysis, seismology, engineering seismology, and computational modeling in geophysics.
 
 Laboratory Staff
+
 Geophysical Engineering, Institut Teknologi Sumatera
+
 2018 – 2021
 
 	•	Managed and maintained geophysical instrumentation.
@@ -65,7 +69,7 @@ Operating Systems
 
 Professional Interests
 
-	•	Geophysics and seismology, particularly seismic data processing and interpretation.
+	•	Geophysics, computation, seismology, and engineering seismology.
 	•	Software development for geophysical applications.
 	•	Collaborative projects in programming (C++, Fortran, Python) and data analysis.
 
@@ -76,43 +80,6 @@ Visit my website to access my repositories, research materials, and useful resou
 Collaboration Opportunities
 ------
 I am enthusiastic about exploring innovative ideas and collaborative projects in geophysics, seismology, and computational programming. Feel free to reach out via email to discuss potential opportunities.
-
-Education
-------
-* S.T. (Bachelor of Engineering) in Geophysical Engineering, Institut Teknologi Sumatera, 2018
-* M.Sc. (Master of Science) in Geophysics, National Central University, 2021
-
-Work experience
-------
-* 2022-now : Lecturer
-  * Geophysical Engineering, Faculty of Industrial Technology, Institut Teknologi Sumatera, Indonesia
-  * 
-* 2018-2021: Laboratorium Staff
-  * Geophysical Engineering, Institut Teknologi Sumatera, Indonesia
-  * Duties included: Maintaining the geophysics tools, monitoring the field works, and managing the practical kinds of geophysical engineering students.
-  * The tools that have been explored: Refraction seismic, Gravity (Scintrex 6), Magnetic tools, Geoelectrical tools, and Micro-seismometer.
-  
-Skills
-------
-* Working well on the Linux Operating System
-* Very interested in the programming codes
-  * Python
-    * Experience with PyQt (GUI builder in Python)
-  * Fortran
-  * C++
-* I understand command tools, such as Git, rclone, gist-paste, GMT, etc.
-* Office tools, such as Microsoft Office, Zotero, and LaTeX.
-
-Connecting my repositories and the other kinds of stuff on one website
-------
-There are a lot of things that I have to manage to remember what I am doing currently, so I need the website to handle these issues. I also need to organize my repositories or some tips during my activities in one box.
-
-This is my website for everything that I put in. Thank you if you will look into this simple website for a while.
-
-
-Feel free to join the collaboration
-------
-I am always interest with the new thing especially corresponding with my studies: geophysics and seismology, and a lot of interest things those have relationship with the programming: C++, Fortran and python. Therefore, don't hesitate to send me an email to confirm the collaboration that you would like to do.
 
 
 Contact
