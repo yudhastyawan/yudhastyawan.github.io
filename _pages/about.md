@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-![](./images/students.svg)
+![](images/students.svg)
 
 Personal Information
 ------
