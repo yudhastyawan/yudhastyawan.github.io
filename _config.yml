@@ -106,7 +106,7 @@ author:
   orcid            : "https://orcid.org/0000-0002-0891-5745"
   pinterest        :
   soundcloud       :
-  stackoverflow    : https://stackoverflow.com/users/15298188/yudha-styawan
+  StackOverflow    : "https://stackoverflow.com/users/15298188/yudha-styawan"
   steam            :
   tumblr           :
   twitter          : 
@@ -115,6 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  zenodo           : "https://zenodo.org/search?q=%22Styawan%2C%20Yudha%22&l=list&p=1&s=10&sort=bestmatch"
 
 
 # Reading Files
