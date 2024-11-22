@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Yudha Styawan"
   avatar           : "yudha_profil.jpg"
-  bio              : "My brief biography"
+  bio              : "Geophysics | Computation | Seismology"
   location         : "Indonesia"
-  employer         : "Master Student at NCU, Taiwan"
+  employer         : "Lecturer in Geophysical Engineering, ITERA"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : 
-  email            : "yudha.styawan@staff.itera.ac.id"
+  googlescholar    : "https://scholar.google.com/citations?user=ToOcjUgAAAAJ&hl=en&oi=ao"
+  email            : "yudha.styawan@tg.itera.ac.id"
   researchgate     : "https://www.researchgate.net/profile/Yudha_Styawan"
   uri              :
   bitbucket        :
@@ -103,10 +103,10 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "yudhastyawan"
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-0891-5745"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : https://stackoverflow.com/users/15298188/yudha-styawan
   steam            :
   tumblr           :
   twitter          : 
