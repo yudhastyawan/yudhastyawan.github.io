@@ -47,7 +47,7 @@ Programming & Development
 1. Proficient in Python (including PyQt for GUI development), Fortran, and C++.
 2. Experienced with command-line tools: Git, rclone, gist-paste, GMT, and others.
 
-#### Geophysical Tools
+### Geophysical Tools
 Hands-on experience with seismic, gravity, magnetic, and electrical geophysical instruments.
 
 Office & Documentation Tools
