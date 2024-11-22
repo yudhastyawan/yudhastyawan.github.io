@@ -48,7 +48,6 @@ Programming & Development
 2. Experienced with command-line tools: Git, rclone, gist-paste, GMT, and others.
 
 #### Geophysical Tools
-
 Hands-on experience with seismic, gravity, magnetic, and electrical geophysical instruments.
 
 Office & Documentation Tools
