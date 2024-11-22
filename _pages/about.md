@@ -8,6 +8,29 @@ redirect_from:
   - /about.html
 ---
 
+Education
+------
+* S.T. (Bachelor of Engineering) in Geophysical Engineering, Institut Teknologi Sumatera, 2018
+* Currently as a Master Student in Geophysics, Department of Earth Sciences, National Central University, Taiwan, 2019 - now
+
+Work experience
+------
+* 2018-2019: Laboratorium Staff
+  * Geophysical Engineering, Institut Teknologi Sumatera
+  * Duties included: Maintaining the tools of geophysics, monitoring the field works, and managing the practical stuffs of geophysical engineering students.
+  * The tools those have been explored: Refraction seismic, Gravity (Scintrex 6), Magnetic tools, Geoelectrical tools, and Micro-seismometer.
+  
+Skills
+------
+* Working good on Linux Operating System
+* Very interest with the programming codes
+  * Python
+    * Experience with PyQt (GUI builder in Python)
+  * Fortran
+  * C++
+* Well understanding on the command tools, such as Git, rclone, gist-paste, GMT, and etc.
+* Office tools, such as Microsoft Office, Zotero, and LaTeX.
+
 Connecting my repositories and the other stuffs on one website
 ------
 There are a lot of thing that I have to manage for remembering what I am doing currently so that needing the website to handle these issues is the necessary for me and organizing my repositories or some tips during my activities in one box.
