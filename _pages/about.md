@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yudha Styawan Personal Website"
+title: "Discover Yudha Styawan!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
