@@ -119,10 +119,13 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
       {% if author.zenodo %}
-        <li><a href="{{ author.zenodo }}"><i class="fab fa-fw fa-database" aria-hidden="true"></i> Zenodo</a></li>
+        <li><a href="{{ author.zenodo }}"><i class="fab fa-fw fa-codepen" aria-hidden="true"></i> Zenodo</a></li>
       {% endif %}
       {% if author.itera %}
-        <li><a href="{{ author.itera }}"><i class="fab fa-fw fa-user" aria-hidden="true"></i> ITERA profile</a></li>
+        <li><a href="{{ author.itera }}"><i class="fab fa-fw fa-codepenr" aria-hidden="true"></i> ITERA profile</a></li>
+      {% endif %}
+      {% if author.sinta %}
+        <li><a href="{{ author.sinta }}"><i class="fab fa-fw fa-codepen" aria-hidden="true"></i> SINTA profile</a></li>
 {% endif %}
     </ul>
   </div>
