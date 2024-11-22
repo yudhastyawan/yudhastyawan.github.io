@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Discover Yudha Styawan!"
+title: "Yudha Styawan | Portfolio"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
