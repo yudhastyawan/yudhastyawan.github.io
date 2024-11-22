@@ -10,11 +10,11 @@ redirect_from:
 
 Personal Information
 ------
-	•	Name: [Your Full Name]
+	•	Name: Yudha Styawan
 	•	Position: Lecturer, Geophysical Engineering
 	•	Institution: Institut Teknologi Sumatera, Indonesia
-	•	Email: [Your Email Address]
-	•	Website: [Your Website URL]
+	•	Email: yudha.styawan@tg.itera.ac.id / yudhastyawan26@gmail.com
+	•	Website: yudhastyawan.github.io
 
 Education
 ------
@@ -26,6 +26,7 @@ Professional Experience
 Lecturer
 Geophysical Engineering, Faculty of Industrial Technology, Institut Teknologi Sumatera
 2022 – Present
+
 	•	Teaching undergraduate courses in geophysics and engineering.
 	•	Mentoring students in practical applications and research projects.
 	•	Research focus areas: seismic data analysis, geophysical tools optimization, and computational modeling in geophysics.
@@ -33,6 +34,7 @@ Geophysical Engineering, Faculty of Industrial Technology, Institut Teknologi Su
 Laboratory Staff
 Geophysical Engineering, Institut Teknologi Sumatera
 2018 – 2021
+
 	•	Managed and maintained geophysical instrumentation.
 	•	Supervised fieldwork activities for geophysics students.
 	•	Conducted technical training on geophysical tools, including:
@@ -45,19 +47,24 @@ Geophysical Engineering, Institut Teknologi Sumatera
 Technical Skills
 ------
 Programming & Development
+
 	•	Proficient in Python (including PyQt for GUI development), Fortran, and C++.
 	•	Experienced with command-line tools: Git, rclone, gist-paste, GMT, and others.
 
 Geophysical Tools
+
 	•	Hands-on experience with seismic, gravity, magnetic, and electrical geophysical instruments.
 
 Office & Documentation Tools
+
 	•	Skilled in Microsoft Office Suite, Zotero, and LaTeX for documentation and referencing.
 
 Operating Systems
+
 	•	Advanced user of Linux-based systems for research and development tasks.
 
 Professional Interests
+
 	•	Geophysics and seismology, particularly seismic data processing and interpretation.
 	•	Software development for geophysical applications.
 	•	Collaborative projects in programming (C++, Fortran, Python) and data analysis.
