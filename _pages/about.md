@@ -42,11 +42,11 @@ Geophysical Engineering, Institut Teknologi Sumatera
 	•	Managed and maintained geophysical instrumentation.
 	•	Supervised fieldwork activities for geophysics students.
 	•	Conducted technical training on geophysical tools, including:
-	•	Seismic refraction equipment
-	•	Scintrex 6 gravity meter
-	•	Magnetic survey tools
-	•	Geoelectrical instruments
-	•	Micro-seismometers
+		•	Seismic refraction equipment
+		•	Scintrex 6 gravity meter
+		•	Geomagnetic tools
+		•	Geoelectrical instruments
+		•	Seismometers
 
 Technical Skills
 ------
