@@ -18,15 +18,13 @@ Personal Information
 
 Education
 ------
-	•	Master of Science (M.Sc.) in Geophysics, National Central University, Taiwan, 2021
-	•	Bachelor of Engineering (S.T.) in Geophysical Engineering, Institut Teknologi Sumatera, Indonesia, 2018
+1. Master of Science (M.Sc.) in Geophysics, National Central University, Taiwan, 2021
+2. Bachelor of Engineering (S.T.) in Geophysical Engineering, Institut Teknologi Sumatera, Indonesia, 2018
 
 Professional Experience
 ------
 Lecturer
-
 Geophysical Engineering, Faculty of Industrial Technology, Institut Teknologi Sumatera
-
 2022 – Present
 
 	•	Teaching undergraduate courses in geophysics and engineering.
