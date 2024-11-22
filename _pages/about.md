@@ -42,8 +42,7 @@ Laboratory Staff - Geophysical Engineering, Institut Teknologi Sumatera (2018 â€
 
 Technical Skills
 ------
-Programming & Development
-
+### Programming & Development
 1. Proficient in Python (including PyQt for GUI development), Fortran, and C++.
 2. Experienced with command-line tools: Git, rclone, gist-paste, GMT, and others.
 
