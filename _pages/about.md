@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yudha Styawan | Portfolio"
+title: "Yudha Styawan - My Portfolio"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
