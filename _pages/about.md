@@ -80,14 +80,3 @@ Visit my website to access my repositories, research materials, and useful resou
 Collaboration Opportunities
 ------
 I am enthusiastic about exploring innovative ideas and collaborative projects in geophysics, seismology, and computational programming. Feel free to reach out via email to discuss potential opportunities.
-
-
-Contact
-------
-Official Email: [yudha.styawan@tg.itera.ac.id](mailto:yudha.styawan@tg.itera.ac.id) 
-
-LinkedIn: [Yudha Styawan LinkedIn](https://www.linkedin.com/in/yudhastyawan/)
-
-Researchgate: [Yudha Styawan Researchgate](https://www.researchgate.net/profile/Yudha_Styawan)
-
-or you can contact me with this non-official email:  [yudhastyawan26@gmail.com](mailto:yudhastyawan26@gmail.com)
