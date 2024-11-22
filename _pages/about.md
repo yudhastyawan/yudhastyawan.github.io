@@ -23,14 +23,12 @@ Education
 
 Professional Experience
 ------
-Lecturer - Geophysical Engineering, Faculty of Industrial Technology, Institut Teknologi Sumatera (2022 – Present)
-
+### Lecturer - Geophysical Engineering, Faculty of Industrial Technology, Institut Teknologi Sumatera (2022 – Present)
 1. Teaching undergraduate courses in geophysics and engineering.
 2. Mentoring students in practical applications and research projects.
 3. Research focus areas: seismic data analysis, seismology, engineering seismology, and computational modeling in geophysics.
 
-Laboratory Staff - Geophysical Engineering, Institut Teknologi Sumatera (2018 – 2021)
-
+### Laboratory Staff - Geophysical Engineering, Institut Teknologi Sumatera (2018 – 2021)
 1. Managed and maintained geophysical instrumentation.
 2. Supervised fieldwork activities for geophysics students.
 3. Conducted technical training on geophysical tools, including:
@@ -49,16 +47,13 @@ Technical Skills
 ### Geophysical Tools
 Hands-on experience with seismic, gravity, magnetic, and electrical geophysical instruments.
 
-Office & Documentation Tools
-
+### Office & Documentation Tools
 Skilled in Microsoft Office Suite, Zotero, and LaTeX for documentation and referencing.
 
-Operating Systems
-
+### Operating Systems
 Advanced user of Linux-based systems for research and development tasks.
 
-Professional Interests
-
+### Professional Interests
 1. Geophysics, computation, seismology, and engineering seismology.
 2. Software development for geophysical applications.
 3. Collaborative projects in programming (C++, Fortran, Python) and data analysis.
