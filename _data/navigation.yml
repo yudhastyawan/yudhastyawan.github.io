@@ -9,6 +9,9 @@ main:
   - title: "Blog Posts"
     url: https://yudhastyawan.wordpress.com/
 
+  - title: "My Students"
+    url: /students/
+
   # - title: "Publications"
   #   url: /publications/
 
