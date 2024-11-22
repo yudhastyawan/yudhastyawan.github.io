@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+![](./images/students.svg)
+
 Personal Information
 ------
 	•	Name: Yudha Styawan
