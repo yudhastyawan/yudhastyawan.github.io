@@ -12,8 +12,8 @@ main:
   - title: "Blog Posts"
     url: https://yudhastyawan.wordpress.com/
 
-  - title: "Lectures"
-    url: https://directory.itera.ac.id/researcher/id/gpKIfJRmZK9lbGWVZYJ4rcWTlZmXbWlmZIJ4g5iWmGeXm5OVaq6nfg%3D%3D#Education
+  # - title: "Lectures"
+  #   url: https://directory.itera.ac.id/researcher/id/gpKIfJRmZK9lbGWVZYJ4rcWTlZmXbWlmZIJ4g5iWmGeXm5OVaq6nfg%3D%3D#Education
 
   # - title: "Publications"
   #   url: /publications/
