@@ -77,11 +77,11 @@ Professional Experience
 ### Programming & Development
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" style="width: 40px; height: auto; margin-right: 10px;">
-  <strong>Python</strong> (including PyQt for GUI development), <strong>Fortran</strong>, and <strong>C++</strong>.
+  <strong>Python</strong> (including PyQt for GUI development), <strong> Fortran</strong>, and <strong> C++</strong>.
 </div>
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="Git Logo" style="width: 40px; height: auto; margin-right: 10px;">
-  Experienced with command-line tools: <strong>Git</strong>, <strong>rclone</strong>, <strong>gist-paste</strong>, <strong>GMT</strong>, and others.
+  Experienced with command-line tools: <strong>Git</strong>, <strong> rclone</strong>, <strong> gist-paste</strong>, <strong> GMT</strong>, and others.
 </div>
 
 ### Geophysical Tools
@@ -93,7 +93,7 @@ Professional Experience
 ### Office & Documentation Tools
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Microsoft_Office_logo_%282013%E2%80%932019%29.svg/1200px-Microsoft_Office_logo_%282013%E2%80%932019%29.svg.png" alt="Office Tools Logo" style="width: 40px; height: auto; margin-right: 10px;">
-  Skilled in <strong>Microsoft Office Suite</strong>, <strong>Zotero</strong>, and <strong>LaTeX</strong> for documentation and referencing.
+  Skilled in <strong> Microsoft Office Suite</strong>, <strong> Zotero</strong>, and <strong> LaTeX</strong> for documentation and referencing.
 </div>
 
 ### Operating Systems
@@ -108,7 +108,7 @@ Professional Experience
   <ul>
     <li>Geophysics, computation, seismology, and engineering seismology.</li>
     <li>Software development for geophysical applications.</li>
-    <li>Collaborative projects in programming (<strong>C++</strong>, <strong>Fortran</strong>, <strong>Python</strong>) and data analysis.</li>
+    <li>Collaborative projects in programming (<strong> C++</strong>, <strong> Fortran</strong>, <strong> Python</strong>) and data analysis.</li>
   </ul>
 </div>
 
