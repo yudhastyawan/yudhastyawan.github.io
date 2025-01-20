@@ -79,12 +79,6 @@ Professional Experience
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" style="width: 40px; height: auto; margin-right: 10px;">
   <ul>
     <li><strong>Python</strong> (including PyQt for GUI development), <strong>Fortran</strong>, and <strong>C++</strong>.</li>
-  </ul>
-</div>
-
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="Git Logo" style="width: 40px; height: auto; margin-right: 10px;">
-  <ul>
     <li>Experienced with command-line tools: <strong>Git</strong>, <strong>rclone</strong>, <strong>gist-paste</strong>, <strong>GMT</strong>, and others.</li>
   </ul>
 </div>
