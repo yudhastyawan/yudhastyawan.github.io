@@ -77,29 +77,40 @@ Professional Experience
 ### Programming & Development
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" style="width: 40px; height: auto; margin-right: 10px;">
-  <strong>Python</strong> (including PyQt for GUI development), <strong>&nbsp;Fortran</strong>, and <strong>&nbsp;C++</strong>.
+  <ul>
+    <li><strong>Python</strong> (including PyQt for GUI development), <strong>Fortran</strong>, and <strong>C++</strong>.</li>
+  </ul>
 </div>
+
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="Git Logo" style="width: 40px; height: auto; margin-right: 10px;">
-  Experienced with command-line tools: <strong>&nbsp;Git</strong>, <strong>&nbsp;rclone</strong>, <strong>&nbsp;gist-paste</strong>, <strong>&nbsp;GMT</strong>, and others.
+  <ul>
+    <li>Experienced with command-line tools: <strong>Git</strong>, <strong>rclone</strong>, <strong>gist-paste</strong>, <strong>GMT</strong>, and others.</li>
+  </ul>
 </div>
 
 ### Geophysical Tools
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://cdn-icons-png.flaticon.com/512/9443/9443153.png" alt="Geophysical Tools Icon" style="width: 40px; height: auto; margin-right: 10px;">
-  Hands-on experience with seismic, gravity, magnetic, and electrical geophysical instruments.
+  <ul>
+    <li>Hands-on experience with seismic, gravity, magnetic, and electrical geophysical instruments.</li>
+  </ul>
 </div>
 
 ### Office & Documentation Tools
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Microsoft_Office_logo_%282013%E2%80%932019%29.svg/1200px-Microsoft_Office_logo_%282013%E2%80%932019%29.svg.png" alt="Office Tools Logo" style="width: 40px; height: auto; margin-right: 10px;">
-  Skilled in <strong>&nbsp;Microsoft Office Suite</strong>, <strong>&nbsp;Zotero</strong>, and <strong>&nbsp;LaTeX&nbsp;</strong> for documentation and referencing.
+  <ul>
+    <li>Skilled in <strong>Microsoft Office Suite</strong>, <strong>Zotero</strong>, and <strong>LaTeX</strong> for documentation and referencing.</li>
+  </ul>
 </div>
 
 ### Operating Systems
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Linux Logo" style="width: 40px; height: auto; margin-right: 10px;">
-  Advanced user of Linux-based systems for research and development tasks.
+  <ul>
+    <li>Advanced user of Linux-based systems for research and development tasks.</li>
+  </ul>
 </div>
 
 ### Professional Interests
@@ -108,7 +119,7 @@ Professional Experience
   <ul>
     <li>Geophysics, computation, seismology, and engineering seismology.</li>
     <li>Software development for geophysical applications.</li>
-    <li>Collaborative projects in programming (<strong>C++</strong>, <strong>&nbsp;Fortran</strong>, <strong>&nbsp;Python</strong>) and data analysis.</li>
+    <li>Collaborative projects in programming (<strong>C++</strong>, <strong>Fortran</strong>, <strong>Python</strong>) and data analysis.</li>
   </ul>
 </div>
 
