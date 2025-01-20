@@ -71,9 +71,8 @@ Professional Experience
 	e. Seismometers
 
 
-## Technical Skills
+Technical Skills
 ------
-
 ### Programming & Development
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" style="width: 40px; height: auto; margin-right: 10px;">
