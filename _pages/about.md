@@ -10,11 +10,11 @@ redirect_from:
 
 Personal Information
 ------
-1. Name: Yudha Styawan
-2. Position: Lecturer, Geophysical Engineering
-3. Institution: Institut Teknologi Sumatera, Indonesia
-4. Email: yudha.styawan@tg.itera.ac.id / yudhastyawan26@gmail.com
-5. Website: yudhastyawan.github.io
+1. 👤 **Name**: Yudha Styawan
+2. 💼 **Position**: Lecturer, Geophysical Engineering
+3. 🏫 **Institution**: Institut Teknologi Sumatera, Indonesia
+4. 📧 **Email**: yudha.styawan@tg.itera.ac.id / yudhastyawan26@gmail.com
+5. 🌐 **Website**: [yudhastyawan.github.io](https://yudhastyawan.github.io)
 
 Education
 ------
