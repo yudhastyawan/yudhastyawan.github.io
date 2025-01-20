@@ -21,6 +21,24 @@ Education
 1. Master of Science (M.Sc.) in Geophysics, National Central University, Taiwan, 2021
 2. Bachelor of Engineering (S.T.) in Geophysical Engineering, Institut Teknologi Sumatera, Indonesia, 2018
 
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/NCULogo.svg/1200px-NCULogo.svg.png" alt="Logo NCU" style="width: 80px; height: auto; margin-right: 20px;">
+  <div>
+    <strong>National Central University, Taiwan</strong><br>
+    Master of Science (M.Sc.) in Geophysics<br>
+    2021
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="Logo Itera" style="width: 80px; height: auto; margin-right: 20px;">
+  <div>
+    <strong>Institut Teknologi Sumatera, Indonesia</strong><br>
+    Bachelor of Engineering (S.T.) in Geophysical Engineering<br>
+    2018
+  </div>
+</div>
+
 Professional Experience
 ------
 ### Lecturer - Geophysical Engineering, Faculty of Industrial Technology, Institut Teknologi Sumatera (2022 – Present)
