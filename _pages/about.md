@@ -93,7 +93,7 @@ Professional Experience
 ### Office & Documentation Tools
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Microsoft_Office_logo_%282013%E2%80%932019%29.svg/1200px-Microsoft_Office_logo_%282013%E2%80%932019%29.svg.png" alt="Office Tools Logo" style="width: 40px; height: auto; margin-right: 10px;">
-  Skilled in <strong> Microsoft Office Suite</strong>, <strong> Zotero</strong>, and <strong> LaTeX</strong> for documentation and referencing.
+  Skilled in <strong> Microsoft Office Suite</strong>, <strong> Zotero</strong>, and <strong> LaTeX</strong>  for documentation and referencing.
 </div>
 
 ### Operating Systems
