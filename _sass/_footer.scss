@@ -54,7 +54,14 @@
 }
 
 .page__footer-widget {
-  height: 100px;
+  width: 100%; /* Lebar default */
+  max-width: 300px; /* Batas maksimum */
+  height: auto;
+}
+@media (max-width: 768px) {
+  .page__footer-widget {
+    max-width: 200px; /* Lebar lebih kecil untuk perangkat kecil */
+  }
 }
 
 .page__footer-copyright {
