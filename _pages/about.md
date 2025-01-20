@@ -39,12 +39,26 @@ Education
 
 Professional Experience
 ------
-### Lecturer - Geophysical Engineering, Faculty of Industrial Technology, Institut Teknologi Sumatera (2022 – Present)
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="Logo Itera" style="width: 80px; height: auto; margin-right: 20px;">
+  <div>
+    <strong>Institut Teknologi Sumatera, Indonesia</strong><br>
+    Lecturer - Geophysical Engineering, Faculty of Industrial Technology<br>
+    2022 – Present
+  </div>
+</div>
 1. Teaching undergraduate courses in geophysics and engineering.
 2. Mentoring students in practical applications and research projects.
 3. Research focus areas: seismic data analysis, seismology, engineering seismology, and computational modeling in geophysics.
 
-### Laboratory Staff - Geophysical Engineering, Institut Teknologi Sumatera (2018 – 2021)
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="Logo Itera" style="width: 80px; height: auto; margin-right: 20px;">
+  <div>
+    <strong>Institut Teknologi Sumatera, Indonesia</strong><br>
+    Laboratory Staff - Geophysical Engineering<br>
+    2018 – 2021
+  </div>
+</div>
 1. Managed and maintained geophysical instrumentation.
 2. Supervised fieldwork activities for geophysics students.
 3. Conducted technical training on geophysical tools, including:
