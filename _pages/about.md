@@ -50,7 +50,9 @@ Professional Experience
 1. Teaching undergraduate courses in geophysics and engineering.
 2. Mentoring students in practical applications and research projects.
 3. Research focus areas: seismic data analysis, seismology, engineering seismology, and computational modeling in geophysics.
+
 ---
+
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="Logo Itera" style="width: 80px; height: auto; margin-right: 20px;">
   <div>
