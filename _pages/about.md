@@ -70,25 +70,48 @@ Professional Experience
 	d. Geoelectrical instruments
 	e. Seismometers
 
-Technical Skills
+
+## Technical Skills
 ------
+
 ### Programming & Development
-1. Proficient in Python (including PyQt for GUI development), Fortran, and C++.
-2. Experienced with command-line tools: Git, rclone, gist-paste, GMT, and others.
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" style="width: 40px; height: auto; margin-right: 10px;">
+  <strong>Python</strong> (including PyQt for GUI development), <strong>Fortran</strong>, and <strong>C++</strong>.
+</div>
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="Git Logo" style="width: 40px; height: auto; margin-right: 10px;">
+  Experienced with command-line tools: <strong>Git</strong>, <strong>rclone</strong>, <strong>gist-paste</strong>, <strong>GMT</strong>, and others.
+</div>
 
 ### Geophysical Tools
-Hands-on experience with seismic, gravity, magnetic, and electrical geophysical instruments.
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Seismometer.svg" alt="Geophysical Tools Icon" style="width: 40px; height: auto; margin-right: 10px;">
+  Hands-on experience with seismic, gravity, magnetic, and electrical geophysical instruments.
+</div>
 
 ### Office & Documentation Tools
-Skilled in Microsoft Office Suite, Zotero, and LaTeX for documentation and referencing.
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Microsoft_Office_logo_%282019%E2%80%93present%29.svg" alt="Office Tools Logo" style="width: 40px; height: auto; margin-right: 10px;">
+  Skilled in <strong>Microsoft Office Suite</strong>, <strong>Zotero</strong>, and <strong>LaTeX</strong> for documentation and referencing.
+</div>
 
 ### Operating Systems
-Advanced user of Linux-based systems for research and development tasks.
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Linux Logo" style="width: 40px; height: auto; margin-right: 10px;">
+  Advanced user of Linux-based systems for research and development tasks.
+</div>
 
 ### Professional Interests
-1. Geophysics, computation, seismology, and engineering seismology.
-2. Software development for geophysical applications.
-3. Collaborative projects in programming (C++, Fortran, Python) and data analysis.
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Geology-icon.svg" alt="Professional Interests Icon" style="width: 40px; height: auto; margin-right: 10px;">
+  <ul>
+    <li>Geophysics, computation, seismology, and engineering seismology.</li>
+    <li>Software development for geophysical applications.</li>
+    <li>Collaborative projects in programming (<strong>C++</strong>, <strong>Fortran</strong>, <strong>Python</strong>) and data analysis.</li>
+  </ul>
+</div>
+
 
 Online Presence
 ------
