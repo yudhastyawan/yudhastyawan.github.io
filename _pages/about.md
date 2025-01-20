@@ -86,13 +86,13 @@ Professional Experience
 
 ### Geophysical Tools
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Seismometer.svg" alt="Geophysical Tools Icon" style="width: 40px; height: auto; margin-right: 10px;">
+  <img src="https://cdn-icons-png.flaticon.com/512/9443/9443153.png" alt="Geophysical Tools Icon" style="width: 40px; height: auto; margin-right: 10px;">
   Hands-on experience with seismic, gravity, magnetic, and electrical geophysical instruments.
 </div>
 
 ### Office & Documentation Tools
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Microsoft_Office_logo_%282019%E2%80%93present%29.svg" alt="Office Tools Logo" style="width: 40px; height: auto; margin-right: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Microsoft_Office_logo_%282013%E2%80%932019%29.svg/1200px-Microsoft_Office_logo_%282013%E2%80%932019%29.svg.png" alt="Office Tools Logo" style="width: 40px; height: auto; margin-right: 10px;">
   Skilled in <strong>Microsoft Office Suite</strong>, <strong>Zotero</strong>, and <strong>LaTeX</strong> for documentation and referencing.
 </div>
 
@@ -104,7 +104,7 @@ Professional Experience
 
 ### Professional Interests
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Geology-icon.svg" alt="Professional Interests Icon" style="width: 40px; height: auto; margin-right: 10px;">
+  <img src="https://cdn-icons-png.flaticon.com/512/10898/10898109.png" alt="Professional Interests Icon" style="width: 40px; height: auto; margin-right: 10px;">
   <ul>
     <li>Geophysics, computation, seismology, and engineering seismology.</li>
     <li>Software development for geophysical applications.</li>
