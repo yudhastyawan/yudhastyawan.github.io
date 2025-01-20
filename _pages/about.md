@@ -18,8 +18,6 @@ Personal Information
 
 Education
 ------
-1. Master of Science (M.Sc.) in Geophysics, National Central University, Taiwan, 2021
-2. Bachelor of Engineering (S.T.) in Geophysical Engineering, Institut Teknologi Sumatera, Indonesia, 2018
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/NCULogo.svg/1200px-NCULogo.svg.png" alt="Logo NCU" style="width: 80px; height: auto; margin-right: 20px;">
