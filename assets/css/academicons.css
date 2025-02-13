@@ -325,3 +325,37 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+
+#sidebar {
+    position: fixed;
+    right: 10px;
+    top: 100px;
+    width: 250px;
+    background: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar h3 {
+    margin-top: 0;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin-bottom: 10px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#sidebar ul li a:hover {
+    text-decoration: underline;
+}
