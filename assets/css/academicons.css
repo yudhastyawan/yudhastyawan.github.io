@@ -362,6 +362,22 @@
     padding: 0;
 }
 
+#sidebar ul {
+    list-style-type: none; /* Hilangkan bullet point */
+    padding: 0;
+}
+
+#sidebar li {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#sidebar img {
+    display: block;
+    margin: 0 auto 5px;
+    border-radius: 8px; /* Agar sudut gambar sedikit melengkung */
+}
+
 #sidebar ul li {
     margin-bottom: 10px;
 }
