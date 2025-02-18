@@ -9,14 +9,14 @@ main:
   - title: "Data"
     url: /data/
 
-  - title: "Notes"
-    url: https://yudhastyawan.github.io/catatan-yudha/
+  - title: "Geo-Notes"
+    url: https://yudhastyawan.github.io/earth-sciences-101/
   
   - title: "Wordpress"
     url: https://yudhastyawan.wordpress.com/
 
-  - title: "Earth-Sci Blog"
-    url: https://yudhastyawan.github.io/earth-sciences-101/
+  # - title: "Earth-Sci Blog"
+  #   url: https://yudhastyawan.github.io/earth-sciences-101/
 
   # - title: "Lectures"
   #   url: https://directory.itera.ac.id/researcher/id/gpKIfJRmZK9lbGWVZYJ4rcWTlZmXbWlmZIJ4g5iWmGeXm5OVaq6nfg%3D%3D#Education
