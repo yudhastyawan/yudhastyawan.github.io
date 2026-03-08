@@ -1,0 +1,170 @@
+/* ==========================================================================
+   ACADEMIC THEME - FULL WIDTH LAYOUT
+   ========================================================================== */
+
+/* 1. Global Wrapper for Full Width Layout */
+.academic-layout-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    max-width: 100%;
+    min-height: calc(100vh - 150px);
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* 2. Three-Column Structure inside the wrapper */
+.academic-sidebar-left {
+    width: 280px;
+    flex-shrink: 0;
+    padding: 2em 1.5em;
+    border-right: 1px solid #e0e0e0;
+    background-color: #ffffff;
+}
+
+.academic-main-container {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 2em 3em;
+    background-color: #ffffff;
+}
+
+.academic-sidebar-right {
+    width: 320px;
+    flex-shrink: 0;
+    padding: 2em 1.5em;
+    border-left: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+/* 3. Strip Theme Default Box Styles from Sidebars */
+.academic-sidebar-left .sidebar {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.academic-sidebar-right #sidebar {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+/* Author block adjustments in Left Sidebar to look cleaner */
+.academic-sidebar-left .author__avatar img {
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+    /* Subtle soft shadow for avatar only */
+    margin-bottom: 1em;
+}
+
+.academic-sidebar-left .author__urls {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+.academic-sidebar-left .author__urls li {
+    margin-bottom: 0.8em;
+}
+
+.academic-sidebar-left .author__urls a {
+    color: #455a64;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    transition: color 0.2s ease;
+}
+
+.academic-sidebar-left .author__urls a:hover {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.academic-sidebar-left .author__urls i {
+    width: 20px;
+    text-align: center;
+    margin-right: 8px;
+    color: #78909c;
+}
+
+/* Article content layout adjustments */
+.academic-article-content {
+    max-width: 900px;
+    /* Keep reading width comfortable, don't stretch text infinitely */
+    margin: 0 auto;
+}
+
+.academic-article-content .page__title {
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #263238;
+    border-bottom: 2px solid #eceff1;
+    padding-bottom: 0.4em;
+    margin-bottom: 1em;
+    margin-top: 0;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 1200px) {
+    .academic-main-container {
+        padding: 2em 1.5em;
+    }
+}
+
+@media (max-width: 992px) {
+    .academic-layout-wrapper {
+        flex-direction: column;
+    }
+
+    .academic-sidebar-left {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 2em 1em;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    /* Make author info horizontal on mobile */
+    .academic-sidebar-left .sidebar {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        align-items: center;
+    }
+
+    .academic-sidebar-left .author__urls-wrapper {
+        margin-top: 0;
+    }
+
+    .academic-sidebar-right {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid #e0e0e0;
+        padding: 2em 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .academic-sidebar-left .sidebar {
+        flex-direction: column;
+        text-align: center;
+        gap: 1em;
+    }
+
+    .academic-sidebar-left .author__urls a {
+        justify-content: center;
+    }
+}

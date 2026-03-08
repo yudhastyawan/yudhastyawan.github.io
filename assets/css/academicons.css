@@ -420,36 +420,8 @@
 }
 
 /* ==========================================================================
-   FULL-WIDTH LAYOUT & RIGHT SIDEBAR
+   RIGHT SIDEBAR SOFTWARE CARDS
    ========================================================================== */
-
-/* Flexbox layout for main content and right sidebar */
-.main-layout-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  min-height: calc(100vh - 200px);
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.main-content-area {
-  flex: 1 1 0;
-  min-width: 0;
-  padding: 0;
-}
-
-/* Right Sidebar */
-#sidebar {
-  width: 320px;
-  flex-shrink: 0;
-  border-left: 2px solid #e0e0e0;
-  padding: 2em 1.5em 2em 1.5em;
-  background: transparent;
-  overflow-y: auto;
-}
 
 /* Sidebar title */
 .sidebar-title {

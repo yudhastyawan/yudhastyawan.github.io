@@ -6,35 +6,40 @@ layout: compress
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
 
-  <body>
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+<body>
 
-    <main>
-      <div class="main-layout-wrapper">
-        <div class="main-content-area">
-          {{ content }}
-        </div>
-        
-        <!-- Sidebar -->
-        {% include sideright.html %}
-      </div>
-    </main>
+  {% include browser-upgrade.html %}
+  {% include masthead.html %}
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+  <div class="academic-layout-wrapper">
+    <aside class="academic-sidebar-left">
+      {% include sidebar.html %}
+    </aside>
+
+    <div class="academic-main-container">
+      {{ content }}
     </div>
 
-    {% include scripts.html %}
+    <aside class="academic-sidebar-right">
+      {% include sideright.html %}
+    </aside>
+  </div>
 
-  </body>
+  <div class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include footer.html %}
+    </footer>
+  </div>
+
+  {% include scripts.html %}
+
+</body>
+
 </html>
