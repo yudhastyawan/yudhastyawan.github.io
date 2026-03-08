@@ -17,10 +17,12 @@ layout: compress
     {% include masthead.html %}
 
     <main>
-      {{ content }}
-      
-      <!-- Sidebar -->
-      <div id="sidebar">
+      <div class="main-layout-wrapper">
+        <div class="main-content-area">
+          {{ content }}
+        </div>
+        
+        <!-- Sidebar -->
         {% include sideright.html %}
       </div>
     </main>
