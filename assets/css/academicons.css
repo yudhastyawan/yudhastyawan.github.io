@@ -488,12 +488,15 @@
 
 .software-card__badge {
   display: inline-block;
-  font-size: 0.62em;
-  font-weight: 600;
+  font-size: 0.7em;
+  font-weight: 500;
+  background-color: #5c6bc0;
   color: #fff;
-  background: #5c6bc0;
-  padding: 0.15em 0.5em;
-  border-radius: 3px;
+  padding: 0.2em 0.8em;
+  border-radius: 12px;
+  margin-right: 0.4em;
+  margin-top: 0.4em;
+  border: 1px solid #e0e0e0;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-left: 0.4em;

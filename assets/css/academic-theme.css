@@ -3,12 +3,20 @@
    ========================================================================== */
 
 /* 1. Global Wrapper for Full Width Layout */
+body {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+
 .academic-layout-wrapper {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    width: 100%;
-    max-width: 100%;
+    width: 100vw;
+    max-width: 100vw;
     min-height: calc(100vh - 150px);
     margin: 0;
     padding: 0;
