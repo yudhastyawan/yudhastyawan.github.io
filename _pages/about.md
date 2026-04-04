@@ -54,6 +54,7 @@ redirect_from:
           <div class="skills-category-compact">
             <strong><i class="fab fa-python"></i> Programming:</strong>
             <div class="wrapper-badges small mt-half">
+              <span class="skill-badge">Julia</span>
               <span class="skill-badge">Python</span>
               <span class="skill-badge">PyQt</span>
               <span class="skill-badge">Fortran</span>
@@ -74,8 +75,6 @@ redirect_from:
             <div class="wrapper-badges small mt-half">
               <span class="skill-badge">Linux</span>
               <span class="skill-badge">LaTeX</span>
-              <span class="skill-badge">Zotero</span>
-              <span class="skill-badge">MS Office</span>
             </div>
           </div>
 

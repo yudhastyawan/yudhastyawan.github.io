@@ -12,6 +12,9 @@ class CV_PDF(FPDF):
         self.add_font("Arial_I", "", "/System/Library/Fonts/Supplemental/Arial Italic.ttf", uni=True)
 
     def header(self):
+        # Insert Profile Picture on top right
+        self.image("images/profil_yudha_3.jpg", 165, 12, 28)
+        
         self.set_font('Arial_B', '', 24)
         self.set_text_color(44, 62, 80)
         self.cell(0, 10, 'Yudha Styawan', 0, 1, 'C')
@@ -122,9 +125,9 @@ def generate_en_cv():
     pdf.set_text_color(44, 62, 80)
     
     skills = [
-        ("Programming & Dev", "Python, PyQt, Fortran, C++, Git, GMT, Bash / CLI"),
+        ("Programming & Dev", "Julia, Python, PyQt, Fortran, C++, Git, GMT, Bash / CLI"),
         ("Geophysical Tools", "Seismic, Gravity, Magnetic, and Electrical instruments"),
-        ("Software & OS", "Linux, LaTeX, Zotero, Microsoft Office"),
+        ("Software & OS", "Linux, LaTeX"),
         ("Professional Interests", "Computational Seismology, Engineering Seismology, Geophysics Software Development")
     ]
     for cat, items in skills:
@@ -187,9 +190,9 @@ def generate_id_cv():
     pdf.set_text_color(44, 62, 80)
     
     skills = [
-        ("Pemrograman & Dev", "Python, PyQt, Fortran, C++, Git, GMT, Bash / CLI"),
+        ("Pemrograman & Dev", "Julia, Python, PyQt, Fortran, C++, Git, GMT, Bash / CLI"),
         ("Alat Geofisika", "Seismik, Gravitasi, Magnetik, dan Geolistrik"),
-        ("Perangkat Lunak & OS", "Linux, LaTeX, Zotero, Microsoft Office"),
+        ("Perangkat Lunak & OS", "Linux, LaTeX"),
         ("Minat Profesional", "Seismologi Komputasi, Seismologi Teknik, Pengembangan Software Geofisika")
     ]
     for cat, items in skills:

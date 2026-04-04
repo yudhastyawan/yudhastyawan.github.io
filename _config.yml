@@ -12,8 +12,8 @@ title_separator          : "-"
 name                     : &name "Yudha Styawan"
 description              : &description "everything about Yudha Styawan's interests"
 url                      : https://yudhastyawan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/test_githubio" # the subpath of your site, e.g. "/blog"
-repository               : "yudhastyawan/test_githubio"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "yudhastyawan/yudhastyawan.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -118,7 +118,8 @@ author:
   youtube_teaching : "yudhaarchive"
   wikipedia        :
   zenodo           : "https://zenodo.org/search?q=%22Styawan%2C%20Yudha%22&l=list&p=1&s=10&sort=bestmatch"
-  itera            : "https://directory.itera.ac.id/researcher/id/gpKIfJRmZK9lbGWVZYJ4rcWTlZmXbWlmZIJ4g5iWmGeXm5OVaq6nfg%3D%3D"
+  itera            : "https://tg.itera.ac.id/dosen-dan-tendik/"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57210917442"
   sinta            : "https://sinta.kemdiktisaintek.go.id/authors/profile/6920876"
   maps             : "https://yudhastyawan.github.io/map_links/"
 
