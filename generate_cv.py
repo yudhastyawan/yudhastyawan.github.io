@@ -142,7 +142,7 @@ def generate_en_cv():
     pubs = [
         "Wulandari, R., & Styawan, Y. (2025). Enhancing seismic hazard preparation in Lampung, Sumatra: Improved magnitude conversion, seismicity smoothing, and area source modeling. Indonesian Journal on Geoscience. (Accepted for publication)",
         "Styawan, Y. (2025). Optimizing seismic b-values in the java region through voronoi-based ok1993 modelling. JGE (Jurnal Geofisika Eksplorasi), 11(2), 109-121. https://doi.org/10.23960/jge.v11i2.489",
-        "Styawan, Y. (2024). Quakesee: Aplikasi cross-platform python berbasis web untuk otomasi dan aksesibilitas dalam pengunduhan data gempa terbuka. GeoScienceEd Journal, 6(3), 1292-1301. https://doi.org/10.29303/goescienceed.v6i3.968",
+        "Styawan, Y. (2025). Quakesee: Aplikasi cross-platform python berbasis web untuk otomasi dan aksesibilitas dalam pengunduhan data gempa terbuka. GeoScienceEd Journal, 6(3), 1292-1301. https://doi.org/10.29303/goescienceed.v6i3.968",
         "Farduwin, A., Nugraha, P. N., Styawan, Y., Lestari, E. Y. P., & Tr, D. P. J. (2025). Site effects identification using hvsr method in cisarua hot spring area, natar, south lampung. JGE (Jurnal Geofisika Eksplorasi), 11(2), 151-162. https://doi.org/10.23960/jge.v11i2.494",
         "Hamidah, I. F., Farduwin, A., Styawan, Y., Nurfitriani, I., Prasetyo, N., Junian, W. E., & Wulandari, R. (2025). Analisis ancaman gempa lombok menggunakan metode spasial temporal a-value dan b-value periode 1964- 2022. Wahana Fisika, 10(1), 12-26. https://doi.org/10.17509/wafi.v10i1.76470"
     ]
