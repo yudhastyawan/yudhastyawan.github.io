@@ -129,6 +129,27 @@ def generate_en_cv():
         org="Institut Teknologi Sumatera, Indonesia"
     )
 
+    # EDUCATION (\uf19d graduation cap)
+    pdf.section_title('\uf19d', "Education")
+    pdf.add_entry(
+        title="Master of Science (M.Sc.) in Geophysics",
+        date="2021",
+        org="National Central University, Taiwan",
+        sub_details={
+            "Thesis": "Characteristics of Seismic Attenuation in Sumatra Subduction Zone, Indonesia",
+            "Advisors": "Asst. Prof. Chun-Hsiang Kuo, Prof. Bor-Shouh Huang"
+        }
+    )
+    pdf.add_entry(
+        title="Bachelor of Engineering (S.T.) in Geophysical Engineering",
+        date="2018",
+        org="Institut Teknologi Sumatera, Indonesia",
+        sub_details={
+            "Skripsi": "Lindu Software: Aplikasi Pengolahan Data Seismologi Berbasis Python untuk Tomografi Waktu Tempuh",
+            "Advisors": "Dr. Tedi Yudistira, S.Si., M.Si., Ruhul Firdaus, S.T., M.T."
+        }
+    )
+
     # GRANTS (\uf4c0 money check)
     pdf.section_title('\uf4c0', "Grants & Research Funding")
     pdf.add_entry(title="ITERA Expertise-Based Research Grant", date="2025", org="", description="Application of Brownian Passage Time Method as Recurrence Interval Calculation on Fault Earthquakes in the Western Part of Sunda-Java Strait to Support the Update of Seismic Hazard Assessment Model in Lampung Region")
@@ -154,27 +175,6 @@ def generate_en_cv():
     pdf.add_list_item("SeisWave: https://github.com/yudhastyawan/seiswave")
     pdf.add_list_item("QuakeSee: https://github.com/yudhastyawan/quakesee")
     pdf.add_list_item("Lindu Software: https://github.com/Computation-Geophysics-TG-Itera/lindu-software")
-
-    # EDUCATION (\uf19d graduation cap)
-    pdf.section_title('\uf19d', "Education")
-    pdf.add_entry(
-        title="Master of Science (M.Sc.) in Geophysics",
-        date="2021",
-        org="National Central University, Taiwan",
-        sub_details={
-            "Thesis": "Characteristics of Seismic Attenuation in Sumatra Subduction Zone, Indonesia",
-            "Advisors": "Asst. Prof. Chun-Hsiang Kuo, Prof. Bor-Shouh Huang"
-        }
-    )
-    pdf.add_entry(
-        title="Bachelor of Engineering (S.T.) in Geophysical Engineering",
-        date="2018",
-        org="Institut Teknologi Sumatera, Indonesia",
-        sub_details={
-            "Skripsi": "Lindu Software: Aplikasi Pengolahan Data Seismologi Berbasis Python untuk Tomografi Waktu Tempuh",
-            "Advisors": "Dr. Tedi Yudistira, S.Si., M.Si., Ruhul Firdaus, S.T., M.T."
-        }
-    )
 
     # SKILLS (\uf0ad wrench)
     pdf.section_title('\uf0ad', "Technical Skills")
@@ -219,6 +219,27 @@ def generate_id_cv():
         org="Institut Teknologi Sumatera, Indonesia"
     )
 
+    # EDUCATION
+    pdf.section_title('\uf19d', "Pendidikan")
+    pdf.add_entry(
+        title="Master of Science (M.Sc.) Program Geofisika",
+        date="2021",
+        org="Departemen Ilmu Bumi, National Central University, Taiwan",
+        sub_details={
+            "Tesis": "Characteristics of Seismic Attenuation in Sumatra Subduction Zone, Indonesia",
+            "Pembimbing": "Asst. Prof. Chun-Hsiang Kuo, Prof. Bor-Shouh Huang"
+        }
+    )
+    pdf.add_entry(
+        title="Sarjana Teknik (S.T.) Program Studi Teknik Geofisika",
+        date="2018",
+        org="Institut Teknologi Sumatera, Indonesia",
+        sub_details={
+            "Skripsi": "Lindu Software: Aplikasi Pengolahan Data Seismologi Berbasis Python untuk Tomografi Waktu Tempuh",
+            "Pembimbing": "Dr. Tedi Yudistira, S.Si., M.Si., Ruhul Firdaus, S.T., M.T."
+        }
+    )
+
     # GRANTS
     pdf.section_title('\uf4c0', "Pendanaan Penelitian dan Pengabdian")
     pdf.add_entry(title="Penelitian Berbasis Kepakaran ITERA", date="2025", org="", description="Penerapan Metode Brownian Passage Time Sebagai Perhitungan Recurrence Interval Pada Gempa Bumi Patahan di Selat Sunda-Jawa Bagian Barat Untuk Mendukung Pembaharuan Model Penilaian Bahaya Seismik Di Wilayah Lampung")
@@ -244,27 +265,6 @@ def generate_id_cv():
     pdf.add_list_item("SeisWave: https://github.com/yudhastyawan/seiswave")
     pdf.add_list_item("QuakeSee: https://github.com/yudhastyawan/quakesee")
     pdf.add_list_item("Lindu Software: https://github.com/Computation-Geophysics-TG-Itera/lindu-software")
-
-    # EDUCATION
-    pdf.section_title('\uf19d', "Pendidikan")
-    pdf.add_entry(
-        title="Master of Science (M.Sc.) Program Geofisika",
-        date="2021",
-        org="Departemen Ilmu Bumi, National Central University, Taiwan",
-        sub_details={
-            "Tesis": "Characteristics of Seismic Attenuation in Sumatra Subduction Zone, Indonesia",
-            "Pembimbing": "Asst. Prof. Chun-Hsiang Kuo, Prof. Bor-Shouh Huang"
-        }
-    )
-    pdf.add_entry(
-        title="Sarjana Teknik (S.T.) Program Studi Teknik Geofisika",
-        date="2018",
-        org="Institut Teknologi Sumatera, Indonesia",
-        sub_details={
-            "Skripsi": "Lindu Software: Aplikasi Pengolahan Data Seismologi Berbasis Python untuk Tomografi Waktu Tempuh",
-            "Pembimbing": "Dr. Tedi Yudistira, S.Si., M.Si., Ruhul Firdaus, S.T., M.T."
-        }
-    )
 
     # SKILLS
     pdf.section_title('\uf0ad', "Keahlian Teknis")
