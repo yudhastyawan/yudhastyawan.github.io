@@ -29,6 +29,9 @@ class CV_PDF(FPDF):
         contact = "yudha.styawan@tg.itera.ac.id  |  yudhastyawan26@gmail.com  |  yudhastyawan.github.io"
         self.cell(140, 6, contact, 0, 1, 'L')
         
+        links = "Google Scholar: s.id/yudhascholar | ORCID: 0000-0002-0891-5745 | GitHub: github.com/yudhastyawan"
+        self.cell(140, 6, links, 0, 1, 'L')
+        
         self.ln(5)
         self.set_draw_color(189, 195, 199)
         self.line(10, self.get_y(), 155, self.get_y())
@@ -71,8 +74,15 @@ class CV_PDF(FPDF):
                 self.set_font('Arial', '', 10)
                 self.multi_cell(0, 5, val)
             self.ln(1)
-        
         self.ln(3)
+
+    def add_list_item(self, text):
+        self.set_font('Arial', '', 10)
+        self.set_text_color(85, 85, 85)
+        self.set_x(12)
+        self.cell(5, 5, "-", 0, 0)
+        self.multi_cell(0, 5, text)
+        self.ln(1)
 
 def generate_en_cv():
     pdf = CV_PDF(lang="EN")
@@ -94,9 +104,36 @@ def generate_en_cv():
     pdf.add_entry(
         title="Laboratory Staff - Geophysical Engineering",
         date="2018 - 2021",
-        org="Institut Teknologi Sumatera, Indonesia",
-        description="Managed geophysical instrumentation. Supervised fieldwork activities. Conducted technical training on seismic refraction, Scintrex 6 gravity meter, geomagnetic tools, geoelectrical instruments, and seismometers."
+        org="Institut Teknologi Sumatera, Indonesia"
     )
+
+    # GRANTS
+    pdf.section_title("Grants & Research Funding")
+    pdf.add_entry(title="ITERA Expertise-Based Research Grant", date="2025", org="", description="Application of Brownian Passage Time Method as Recurrence Interval Calculation on Fault Earthquakes in the Western Part of Sunda-Java Strait to Support the Update of Seismic Hazard Assessment Model in Lampung Region")
+    pdf.add_entry(title="ITERA Assignment Research Grant", date="2025", org="", description="Policy Brief Response of Lampung Province City and Regency Towards Megathrust")
+    pdf.add_entry(title="ITERA Scientific Group Strengthening Research Grant", date="2025", org="", description="Azimuth Variation Analysis on Single Station HVSR Measurement in Umbul Niti Geothermal Manifestation, Jatimulyo Village, South Lampung Regency")
+    pdf.add_entry(title="ITERA Community Service Funding", date="2025", org="", description="Early Preparedness: Forming a Tsunami Responsive Generation in Coastal Schools")
+    pdf.add_entry(title="ITERA Beginner Lecturer Research Grant", date="2024", org="", description="Updating Seismic Activity Modeling and Vs30 on Ground Motion Prediction Equations for Long-term Seismic Hazard Assessment in Sumatra, Indonesia: A Probabilistic Approach")
+
+    # PUBLICATIONS
+    pdf.section_title("Recent Publications")
+    pubs = [
+        "Wulandari, R., & Styawan, Y. (2025). Enhancing seismic hazard preparation in Lampung, Sumatra: Improved magnitude conversion, seismicity smoothing, and area source modeling. Indonesian Journal on Geoscience. (Accepted for publication)",
+        "Styawan, Y. (2025). Optimizing seismic b-values in the java region through voronoi-based ok1993 modelling. JGE (Jurnal Geofisika Eksplorasi), 11(2), 109-121. https://doi.org/10.23960/jge.v11i2.489",
+        "Styawan, Y. (2024). Quakesee: Aplikasi cross-platform python berbasis web untuk otomasi dan aksesibilitas dalam pengunduhan data gempa terbuka. GeoScienceEd Journal, 6(3), 1292-1301. https://doi.org/10.29303/goescienceed.v6i3.968",
+        "Farduwin, A., Nugraha, P. N., Styawan, Y., Lestari, E. Y. P., & Tr, D. P. J. (2025). Site effects identification using hvsr method in cisarua hot spring area, natar, south lampung. JGE (Jurnal Geofisika Eksplorasi), 11(2), 151-162. https://doi.org/10.23960/jge.v11i2.494",
+        "Hamidah, I. F., Farduwin, A., Styawan, Y., Nurfitriani, I., Prasetyo, N., Junian, W. E., & Wulandari, R. (2025). Analisis ancaman gempa lombok menggunakan metode spasial temporal a-value dan b-value periode 1964- 2022. Wahana Fisika, 10(1), 12-26. https://doi.org/10.17509/wafi.v10i1.76470"
+    ]
+    for p in pubs:
+        pdf.add_list_item(p)
+    pdf.ln(3)
+
+    # OPEN SOURCE SOFTWARE
+    pdf.section_title("Open Source Software")
+    pdf.add_list_item("SeisWave: https://github.com/yudhastyawan/seiswave")
+    pdf.add_list_item("QuakeSee: https://github.com/yudhastyawan/quakesee")
+    pdf.add_list_item("Lindu Software: https://github.com/Computation-Geophysics-TG-Itera/lindu-software")
+    pdf.ln(3)
 
     # EDUCATION
     pdf.section_title("Education")
@@ -159,9 +196,36 @@ def generate_id_cv():
     pdf.add_entry(
         title="Staf Laboratorium Teknik Geofisika",
         date="2018 - 2021",
-        org="Institut Teknologi Sumatera, Indonesia",
-        description="Mengelola instrumen geofisika dan membimbing praktikum lapangan mahasiswa. Melaksanakan pelatihan teknis meliputi refraksi seismik, gravity meter Scintrex 6, alat geomagnetik, instrumen geolistrik, dan seismometer."
+        org="Institut Teknologi Sumatera, Indonesia"
     )
+
+    # GRANTS
+    pdf.section_title("Pendanaan Penelitian dan Pengabdian")
+    pdf.add_entry(title="Penelitian Berbasis Kepakaran ITERA", date="2025", org="", description="Penerapan Metode Brownian Passage Time Sebagai Perhitungan Recurrence Interval Pada Gempa Bumi Patahan di Selat Sunda-Jawa Bagian Barat Untuk Mendukung Pembaharuan Model Penilaian Bahaya Seismik Di Wilayah Lampung")
+    pdf.add_entry(title="Penelitian Penugasan ITERA", date="2025", org="", description="Policy Brief Response Kota dan Kabupaten Prov Lampung Terhadap Megathrust")
+    pdf.add_entry(title="Penelitan Penguatan Kelompok Keilmuan ITERA", date="2025", org="", description="Analisis Variasi Azimuth Pada Pengukuran HVSR Single Station Di Manifestasi Geotermal Umbul Niti, Desa Jatimulyo, Kabupaten Lampung Selatan")
+    pdf.add_entry(title="Pendanaan Pengabdian Kepada Masyarakat ITERA (PKK)", date="2025", org="", description="Siaga Sejak Dini: Membentuk Generasi Tanggap Tsunami Di Sekolah Pesisir")
+    pdf.add_entry(title="Penelitian Dosen Pemula ITERA", date="2024", org="", description="Pemutakhiran Pemodelan Aktivitas Seismik dan Vs30 pada Ground Motion Prediction Equations untuk Penilaian Jangka Panjang Bahaya Gempa Bumi di Sumatera, Indonesia: Pendekatan Probabilistik")
+
+    # PUBLICATIONS
+    pdf.section_title("Penelitian Terkini")
+    pubs = [
+        "Wulandari, R., & Styawan, Y. (2025). Enhancing seismic hazard preparation in Lampung, Sumatra: Improved magnitude conversion, seismicity smoothing, and area source modeling. Indonesian Journal on Geoscience. (Accepted for publication)",
+        "Styawan, Y. (2025). Optimizing seismic b-values in the java region through voronoi-based ok1993 modelling. JGE (Jurnal Geofisika Eksplorasi), 11(2), 109-121. https://doi.org/10.23960/jge.v11i2.489",
+        "Styawan, Y. (2024). Quakesee: Aplikasi cross-platform python berbasis web untuk otomasi dan aksesibilitas dalam pengunduhan data gempa terbuka. GeoScienceEd Journal, 6(3), 1292-1301. https://doi.org/10.29303/goescienceed.v6i3.968",
+        "Farduwin, A., Nugraha, P. N., Styawan, Y., Lestari, E. Y. P., & Tr, D. P. J. (2025). Site effects identification using hvsr method in cisarua hot spring area, natar, south lampung. JGE (Jurnal Geofisika Eksplorasi), 11(2), 151-162. https://doi.org/10.23960/jge.v11i2.494",
+        "Hamidah, I. F., Farduwin, A., Styawan, Y., Nurfitriani, I., Prasetyo, N., Junian, W. E., & Wulandari, R. (2025). Analisis ancaman gempa lombok menggunakan metode spasial temporal a-value dan b-value periode 1964- 2022. Wahana Fisika, 10(1), 12-26. https://doi.org/10.17509/wafi.v10i1.76470"
+    ]
+    for p in pubs:
+        pdf.add_list_item(p)
+    pdf.ln(3)
+
+    # OPEN SOURCE SOFTWARE
+    pdf.section_title("Software yang Sudah Dibuat")
+    pdf.add_list_item("SeisWave: https://github.com/yudhastyawan/seiswave")
+    pdf.add_list_item("QuakeSee: https://github.com/yudhastyawan/quakesee")
+    pdf.add_list_item("Lindu Software: https://github.com/Computation-Geophysics-TG-Itera/lindu-software")
+    pdf.ln(3)
 
     # EDUCATION
     pdf.section_title("Pendidikan")
