@@ -240,7 +240,7 @@ def generate_id_cv():
         pdf.add_list_item(p)
 
     # OPEN SOURCE SOFTWARE
-    pdf.section_title('\uf121', "Pengembangan Perangkat Lunak / Software Development")
+    pdf.section_title('\uf121', "Pengembangan Software")
     pdf.add_list_item("SeisWave: https://github.com/yudhastyawan/seiswave")
     pdf.add_list_item("QuakeSee: https://github.com/yudhastyawan/quakesee")
     pdf.add_list_item("Lindu Software: https://github.com/Computation-Geophysics-TG-Itera/lindu-software")
