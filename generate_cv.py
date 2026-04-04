@@ -17,17 +17,17 @@ class CV_PDF(FPDF):
         
         self.set_font('Arial_B', '', 24)
         self.set_text_color(44, 62, 80)
-        self.cell(0, 10, 'Yudha Styawan', 0, 1, 'C')
+        self.cell(140, 10, 'Yudha Styawan', 0, 1, 'L')
 
         self.set_font('Arial', '', 12)
         self.set_text_color(127, 140, 141)
         sub = "Lecturer, Geophysicist & Computational Seismology Enthusiast" if self.lang == "EN" else "Dosen, Ahli Geofisika & Penggiat Komputasi Seismologi"
-        self.cell(0, 7, sub, 0, 1, 'C')
+        self.cell(140, 7, sub, 0, 1, 'L')
 
         self.set_font('Arial', '', 10)
         self.set_text_color(52, 152, 219)
         contact = "yudha.styawan@tg.itera.ac.id  |  yudhastyawan26@gmail.com  |  yudhastyawan.github.io"
-        self.cell(0, 6, contact, 0, 1, 'C')
+        self.cell(140, 6, contact, 0, 1, 'L')
         
         self.ln(5)
         self.set_draw_color(189, 195, 199)
