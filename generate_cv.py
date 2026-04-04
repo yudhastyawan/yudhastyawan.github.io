@@ -43,7 +43,7 @@ class CV_PDF(FPDF):
         self.set_text_color(127, 140, 141)
         self.ln(1)
         # Scholar
-        self.write_icon_text('FAS', '\uf19d', 'Arial', "Google Scholar: s.id/yudhascholar")
+        self.write_icon_text('FAS', '\uf19d', 'Arial', "Google Scholar: s.itera.id/yudhascholar")
         # ORCID
         self.write_icon_text('FAS', '\uf2c1', 'Arial', "ORCID: 0000-0002-0891-5745")
         # GitHub
@@ -228,7 +228,7 @@ def generate_id_cv():
     pdf.add_entry(title="Penelitian Dosen Pemula ITERA", date="2024", org="", description="Pemutakhiran Pemodelan Aktivitas Seismik dan Vs30 pada Ground Motion Prediction Equations untuk Penilaian Jangka Panjang Bahaya Gempa Bumi di Sumatera, Indonesia: Pendekatan Probabilistik")
 
     # PUBLICATIONS
-    pdf.section_title('\uf02d', "Penelitian Terkini")
+    pdf.section_title('\uf02d', "Publikasi Terkini")
     pubs = [
         "Wulandari, R., & Styawan, Y. (2025). Enhancing seismic hazard preparation in Lampung, Sumatra: Improved magnitude conversion, seismicity smoothing, and area source modeling. Indonesian Journal on Geoscience. (Accepted for publication)",
         "Styawan, Y. (2025). Optimizing seismic b-values in the java region through voronoi-based ok1993 modelling. JGE (Jurnal Geofisika Eksplorasi), 11(2), 109-121. https://doi.org/10.23960/jge.v11i2.489",
@@ -240,7 +240,7 @@ def generate_id_cv():
         pdf.add_list_item(p)
 
     # OPEN SOURCE SOFTWARE
-    pdf.section_title('\uf121', "Software yang Sudah Dibuat")
+    pdf.section_title('\uf121', "Pengembangan Perangkat Lunak / Software Development")
     pdf.add_list_item("SeisWave: https://github.com/yudhastyawan/seiswave")
     pdf.add_list_item("QuakeSee: https://github.com/yudhastyawan/quakesee")
     pdf.add_list_item("Lindu Software: https://github.com/Computation-Geophysics-TG-Itera/lindu-software")
