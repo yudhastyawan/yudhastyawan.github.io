@@ -31,7 +31,7 @@ class CV_PDF(FPDF):
         
         self.ln(5)
         self.set_draw_color(189, 195, 199)
-        self.line(10, self.get_y(), 200, self.get_y())
+        self.line(10, self.get_y(), 155, self.get_y())
         self.ln(5)
 
     def section_title(self, title):
