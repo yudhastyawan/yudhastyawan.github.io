@@ -86,10 +86,10 @@ author:
   location         : "Indonesia"
   employer         : "Institut Teknologi Sumatera"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=ToOcjUgAAAAJ&hl=en&oi=ao"
+  googlescholar    : 
   portalgaruda     : "https://garuda.kemdiktisaintek.go.id/author/view/6588424"
-  email            : "yudha.styawan@tg.itera.ac.id"
-  researchgate     : "https://www.researchgate.net/profile/Yudha_Styawan"
+  email            : 
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -97,14 +97,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yudhastyawan"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "yudhastyawan"
-  orcid            : "https://orcid.org/0000-0002-0891-5745"
+  linkedin         : 
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : "15298188/yudha-styawan"
@@ -119,8 +119,8 @@ author:
   wikipedia        :
   zenodo           : "https://zenodo.org/search?q=%22Styawan%2C%20Yudha%22&l=list&p=1&s=10&sort=bestmatch"
   itera            : "https://tg.itera.ac.id/dosen-dan-tendik/"
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57210917442"
-  sinta            : "https://sinta.kemdiktisaintek.go.id/authors/profile/6920876"
+  scopus           : 
+  sinta            : 
   maps             : "https://yudhastyawan.github.io/map_links/"
 
 
