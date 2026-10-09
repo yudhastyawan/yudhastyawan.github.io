@@ -52,30 +52,25 @@ redirect_from:
         <div class="skills-grid">
           
           <div class="skills-category-compact">
-            <strong><i class="fab fa-python"></i> Programming:</strong>
+            <strong><i class="fas fa-code"></i> Programming & Dev:</strong>
             <div class="wrapper-badges small mt-half">
-              <span class="skill-badge">Julia</span>
               <span class="skill-badge">Python</span>
-              <span class="skill-badge">PyQt</span>
+              <span class="skill-badge">Rust</span>
+              <span class="skill-badge">Julia</span>
               <span class="skill-badge">Fortran</span>
               <span class="skill-badge">C++</span>
+              <span class="skill-badge">PyQt</span>
               <span class="skill-badge">Git</span>
               <span class="skill-badge">GMT</span>
               <span class="skill-badge">Bash / CLI</span>
+              <span class="skill-badge">Linux</span>
+              <span class="skill-badge">LaTeX</span>
             </div>
           </div>
           
           <div class="skills-category-compact mt-1">
             <strong><i class="fas fa-hammer"></i> Geo Tools:</strong>
-            <div class="text-muted text-small mt-half">Hands-on field and operational experience with <strong>Seismic</strong>, <strong>Gravity</strong>, <strong>Magnetic</strong>, and <strong>Electrical</strong> geophysical instruments.</div>
-          </div>
-          
-          <div class="skills-category-compact mt-1">
-            <strong><i class="fas fa-tools"></i> Software & OS:</strong>
-            <div class="wrapper-badges small mt-half">
-              <span class="skill-badge">Linux</span>
-              <span class="skill-badge">LaTeX</span>
-            </div>
+            <div class="text-muted text-small mt-half"><strong>Seismometers</strong> (Primary); <strong>Gravity</strong>, <strong>Magnetic</strong>, and <strong>Electrical</strong> instruments.</div>
           </div>
 
           <div class="skills-category-compact mt-1">
@@ -146,7 +141,7 @@ redirect_from:
         <h2 class="home-section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
         <div class="timeline-container compact-timeline">
           <div class="timeline-card compact-card">
-            <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/NCULogo.svg/1200px-NCULogo.svg.png" alt="NCU"></div>
+            <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/NCULogo.svg" alt="NCU"></div>
             <div class="timeline-content">
               <div class="d-flex justify-between align-center">
                 <h3 class="timeline-title">M.Sc. Geophysics</h3>
