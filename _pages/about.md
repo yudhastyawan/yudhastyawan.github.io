@@ -2,7 +2,7 @@
 permalink: /
 title: "Yudha Styawan - Geophysicist & Educator"
 excerpt: "About me"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
@@ -19,6 +19,17 @@ redirect_from:
     <h1 class="hero-title">Yudha Styawan</h1>
     <p class="hero-subtitle">Lecturer, Geophysicist & Computational Seismology Enthusiast</p>
     <p class="hero-description">Passionate educator and researcher specializing in geophysics, computational modeling, and seismology. Bridging the gap between theoretical principles and practical applications through data analysis and programming.</p>
+    
+    <div style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 20px;">
+      <a href="mailto:yudha.styawan@tg.itera.ac.id" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+      <a href="https://scholar.google.com/citations?user=ToOcjUgAAAAJ&hl=en&oi=ao" target="_blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar" /></a>
+      <a href="https://www.researchgate.net/profile/Yudha_Styawan" target="_blank"><img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate" /></a>
+      <a href="https://github.com/yudhastyawan" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+      <a href="https://sinta.kemdiktisaintek.go.id/authors/profile/6920876" target="_blank"><img src="https://img.shields.io/badge/SINTA-005b9f?style=for-the-badge" alt="SINTA" /></a>
+      <a href="https://orcid.org/0000-0002-0891-5745" target="_blank"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=57210917442" target="_blank"><img src="https://img.shields.io/badge/Scopus-E9711C?style=for-the-badge" alt="Scopus" /></a>
+      <a href="https://www.linkedin.com/in/yudhastyawan" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    </div>
   </section>
 
   <!-- TWO COLUMN LAYOUT -->
