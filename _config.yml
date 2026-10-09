@@ -87,7 +87,7 @@ author:
   employer         : "Institut Teknologi Sumatera"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : 
-  portalgaruda     : "https://garuda.kemdiktisaintek.go.id/author/view/6588424"
+  portalgaruda     : 
   email            : 
   researchgate     : 
   uri              :
@@ -107,18 +107,18 @@ author:
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "15298188/yudha-styawan"
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : 
   vine             :
   weibo            :
   xing             :
-  youtube          : "yudha_styawan"
-  youtube_teaching : "yudhaarchive"
+  youtube          : 
+  youtube_teaching : 
   wikipedia        :
-  zenodo           : "https://zenodo.org/search?q=%22Styawan%2C%20Yudha%22&l=list&p=1&s=10&sort=bestmatch"
-  itera            : "https://tg.itera.ac.id/dosen-dan-tendik/"
+  zenodo           : 
+  itera            : 
   scopus           : 
   sinta            : 
   maps             : "https://yudhastyawan.github.io/map_links/"

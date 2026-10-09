@@ -30,6 +30,12 @@ redirect_from:
       <a href="https://www.scopus.com/authid/detail.uri?authorId=57210917442" target="_blank"><img src="https://img.shields.io/badge/Scopus-E9711C?style=for-the-badge" alt="Scopus" /></a>
       <a href="https://www.linkedin.com/in/yudhastyawan" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
       <a href="https://anaconda.org/channels/yudha_styawan" target="_blank"><img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda" /></a>
+      <a href="https://www.stackoverflow.com/users/15298188/yudha-styawan" target="_blank"><img src="https://img.shields.io/badge/StackOverflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="StackOverflow" /></a>
+      <a href="https://www.youtube.com/@yudha_styawan" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
+      <a href="https://www.youtube.com/@yudhaarchive" target="_blank"><img src="https://img.shields.io/badge/Teaching_Archive-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Teaching Archive" /></a>
+      <a href="https://garuda.kemdiktisaintek.go.id/author/view/6588424" target="_blank"><img src="https://img.shields.io/badge/Garuda-0077b5?style=for-the-badge" alt="Garuda" /></a>
+      <a href="https://zenodo.org/search?q=%22Styawan%2C%20Yudha%22&l=list&p=1&s=10&sort=bestmatch" target="_blank"><img src="https://img.shields.io/badge/Zenodo-024b7a?style=for-the-badge&logo=zenodo&logoColor=white" alt="Zenodo" /></a>
+      <a href="https://tg.itera.ac.id/dosen-dan-tendik/" target="_blank"><img src="https://img.shields.io/badge/ITERA_Profile-FFC107?style=for-the-badge&logoColor=black" alt="ITERA Profile" /></a>
     </div>
   </section>
 
