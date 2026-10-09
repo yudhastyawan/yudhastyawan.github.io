@@ -29,6 +29,7 @@ redirect_from:
       <a href="https://orcid.org/0000-0002-0891-5745" target="_blank"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
       <a href="https://www.scopus.com/authid/detail.uri?authorId=57210917442" target="_blank"><img src="https://img.shields.io/badge/Scopus-E9711C?style=for-the-badge" alt="Scopus" /></a>
       <a href="https://www.linkedin.com/in/yudhastyawan" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+      <a href="https://anaconda.org/channels/yudha_styawan" target="_blank"><img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda" /></a>
     </div>
   </section>
 
