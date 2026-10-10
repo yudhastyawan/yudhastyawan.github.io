@@ -37,6 +37,11 @@ redirect_from:
       <a href="https://zenodo.org/search?q=%22Styawan%2C%20Yudha%22&l=list&p=1&s=10&sort=bestmatch" target="_blank"><img src="https://img.shields.io/badge/Zenodo-024b7a?style=for-the-badge&logo=zenodo&logoColor=white" alt="Zenodo" /></a>
       <a href="https://tg.itera.ac.id/dosen-dan-tendik/" target="_blank"><img src="https://img.shields.io/badge/ITERA_Profile-FFC107?style=for-the-badge&logoColor=black" alt="ITERA Profile" /></a>
     </div>
+
+    <div class="cv-download-buttons mt-1" style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
+      <a href="/assets/pdf/Yudha_Styawan_CV_EN.pdf" download class="btn btn--info btn--small" style="text-align: center;"><i class="fas fa-file-pdf"></i> CV (English)</a>
+      <a href="/assets/pdf/Yudha_Styawan_CV_ID.pdf" download class="btn btn--primary btn--small" style="text-align: center; background-color: #2c3e50; border-color: #2c3e50;"><i class="fas fa-file-pdf"></i> CV (Bahasa)</a>
+    </div>
   </section>
 
   <!-- TWO COLUMN LAYOUT -->
@@ -56,11 +61,6 @@ redirect_from:
             <li style="display:flex; margin-bottom:10px;"><i class="fas fa-envelope text-blue" style="width:20px; color:#3498db; margin-top:4px; margin-right:5px;"></i> <div><strong>Email:</strong> yudha.styawan@tg.itera.ac.id <br> yudhastyawan26@gmail.com</div></li>
             <li style="display:flex; margin-bottom:0;"><i class="fas fa-globe text-blue" style="width:20px; color:#3498db; margin-top:4px; margin-right:5px;"></i> <div><strong>Website:</strong> <a style="text-decoration:none;" href="https://yudhastyawan.github.io">yudhastyawan.github.io</a></div></li>
           </ul>
-          
-          <div class="cv-download-buttons mt-1" style="display: flex; gap: 10px; margin-top: 15px;">
-            <a href="/assets/pdf/Yudha_Styawan_CV_EN.pdf" download class="btn btn--info btn--small" style="flex: 1; text-align: center;"><i class="fas fa-file-pdf"></i> CV (English)</a>
-            <a href="/assets/pdf/Yudha_Styawan_CV_ID.pdf" download class="btn btn--primary btn--small" style="flex: 1; text-align: center; background-color: #2c3e50; border-color: #2c3e50;"><i class="fas fa-file-pdf"></i> CV (Bahasa)</a>
-          </div>
         </div>
       </section>
 
