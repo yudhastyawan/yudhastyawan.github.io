@@ -38,9 +38,12 @@ redirect_from:
       <a href="https://tg.itera.ac.id/dosen-dan-tendik/" target="_blank"><img src="https://img.shields.io/badge/ITERA_Profile-FFC107?style=for-the-badge&logoColor=black" alt="ITERA Profile" /></a>
     </div>
 
-    <div class="cv-download-buttons mt-1" style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
-      <a href="/assets/pdf/Yudha_Styawan_CV_EN.pdf" download class="btn btn--info btn--small" style="text-align: center;"><i class="fas fa-file-pdf"></i> CV (English)</a>
-      <a href="/assets/pdf/Yudha_Styawan_CV_ID.pdf" download class="btn btn--primary btn--small" style="text-align: center; background-color: #2c3e50; border-color: #2c3e50;"><i class="fas fa-file-pdf"></i> CV (Bahasa)</a>
+    <div style="text-align: center; margin-top: 20px;">
+      <p style="margin-bottom: 10px; font-weight: bold; color: #555;">Download my Curriculum Vitae:</p>
+      <div class="cv-download-buttons" style="display: flex; gap: 10px; justify-content: center;">
+        <a href="/assets/pdf/Yudha_Styawan_CV_EN.pdf" download class="btn btn--info btn--small" style="text-align: center;"><i class="fas fa-file-pdf"></i> CV (English)</a>
+        <a href="/assets/pdf/Yudha_Styawan_CV_ID.pdf" download class="btn btn--primary btn--small" style="text-align: center; background-color: #2c3e50; border-color: #2c3e50;"><i class="fas fa-file-pdf"></i> CV (Indonesian)</a>
+      </div>
     </div>
   </section>
 
