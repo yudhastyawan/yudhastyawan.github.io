@@ -231,26 +231,9 @@ redirect_from:
           <p class="timeline-details compact-text mt-half">Azimuth Variation Analysis on Single Station HVSR Measurement in Umbul Niti Geothermal Manifestation, Jatimulyo Village, South Lampung Regency</p>
         </div>
       </div>           
-      <div class="timeline-card compact-card">
-        <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
-        <div class="timeline-content">
-          <div class="d-flex justify-between align-center">
-            <h3 class="timeline-title">ITERA Community Service Funding</h3>
-            <span class="timeline-date small">2025</span>
-          </div>
-          <p class="timeline-details compact-text mt-half">Early Preparedness: Forming a Tsunami Responsive Generation in Coastal Schools</p>
-        </div>
-      </div>
-      <div class="timeline-card compact-card">
-        <div class="timeline-icon small-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_ITERA.png" alt="ITERA"></div>
-        <div class="timeline-content">
-          <div class="d-flex justify-between align-center">
-            <h3 class="timeline-title">ITERA Beginner Lecturer Research Grant</h3>
-            <span class="timeline-date small">2024</span>
-          </div>
-          <p class="timeline-details compact-text mt-half">Updating Seismic Activity Modeling and Vs30 on Ground Motion Prediction Equations for Long-term Seismic Hazard Assessment in Sumatra, Indonesia: A Probabilistic Approach</p>
-        </div>
-      </div>
+    </div>
+    <div style="text-align: center; margin-top: 15px;">
+      <a href="/grants/" class="btn btn--info btn--small"><i class="fas fa-list-ul"></i> View All Grants & Funding</a>
     </div>
   </section>
 
