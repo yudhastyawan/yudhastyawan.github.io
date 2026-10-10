@@ -41,11 +41,11 @@ redirect_from:
   </section>
 
   <!-- CV DOWNLOAD BANNER -->
-  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; margin: 0 0 30px 0; background: #f8f9fa; padding: 15px 20px; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
-    <span style="font-weight: 600; margin-right: 15px; color: #333; font-size: 1.1em;"><i class="fas fa-file-pdf" style="color: #e74c3c;"></i> Download Curriculum Vitae:</span>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; margin: -10px 0 30px 0; background: #2c3e50; padding: 15px 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <span style="font-weight: 600; margin-right: 15px; color: #ffffff; font-size: 1.1em;"><i class="fas fa-file-pdf" style="color: #e74c3c;"></i> Download Curriculum Vitae:</span>
     <div style="display: flex; gap: 10px;">
-      <a href="/assets/pdf/Yudha_Styawan_CV_EN.pdf" download class="btn btn--info btn--small" style="margin: 0;"><i class="fas fa-download"></i> English</a>
-      <a href="/assets/pdf/Yudha_Styawan_CV_ID.pdf" download class="btn btn--primary btn--small" style="margin: 0; background-color: #2c3e50; border-color: #2c3e50;"><i class="fas fa-download"></i> Indonesian</a>
+      <a href="/assets/pdf/Yudha_Styawan_CV_EN.pdf" download class="btn btn--small" style="margin: 0; background-color: #3498db; border-color: #3498db; color: #ffffff;"><i class="fas fa-download"></i> English</a>
+      <a href="/assets/pdf/Yudha_Styawan_CV_ID.pdf" download class="btn btn--small" style="margin: 0; background-color: #1abc9c; border-color: #1abc9c; color: #ffffff;"><i class="fas fa-download"></i> Indonesian</a>
     </div>
   </div>
 
