@@ -35,6 +35,8 @@ redirect_from:
       <a href="https://www.youtube.com/@yudhaarchive" target="_blank"><img src="https://img.shields.io/badge/Teaching_Archive-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Teaching Archive" /></a>
       <a href="https://garuda.kemdiktisaintek.go.id/author/view/6588424" target="_blank"><img src="https://img.shields.io/badge/Garuda-0077b5?style=for-the-badge" alt="Garuda" /></a>
       <a href="https://zenodo.org/search?q=%22Styawan%2C%20Yudha%22&l=list&p=1&s=10&sort=bestmatch" target="_blank"><img src="https://img.shields.io/badge/Zenodo-024b7a?style=for-the-badge&logo=zenodo&logoColor=white" alt="Zenodo" /></a>
+      <a href="https://www.webofscience.com/wos/author/record/LRB-3493-2024" target="_blank"><img src="https://img.shields.io/badge/Web_of_Science-5C2D91?style=for-the-badge&logo=clarivate&logoColor=white" alt="Web of Science" /></a>
+      <a href="https://pddikti.kemdiktisaintek.go.id/detail-dosen/9ZiH-6-8RnskbUwHytk9iiSkbaS1aD50A5lIG-CdzfC_QGT4xWkdbXHuphtDUKcyXq_PkQ==" target="_blank"><img src="https://img.shields.io/badge/PDDikti-004a8c?style=for-the-badge" alt="PDDikti" /></a>
       <a href="https://tg.itera.ac.id/dosen-dan-tendik/" target="_blank"><img src="https://img.shields.io/badge/ITERA_Profile-FFC107?style=for-the-badge&logoColor=black" alt="ITERA Profile" /></a>
     </div>
 
@@ -196,6 +198,19 @@ redirect_from:
       
     </div>
   </div>
+
+  <!-- PUBLICATIONS -->
+  <section class="home-section compact-section mt-2">
+    <h2 class="home-section-title"><i class="fas fa-book"></i> Recent Publications</h2>
+    <ul style="list-style-type: none; padding-left: 0; line-height: 1.6;">
+      <li style="margin-bottom: 15px; padding-left: 20px; text-indent: -20px;">Alif, S. M., Anggara, O., Perdana, R. S., Wulandari, R., & <strong>Styawan, Y.</strong> (2026). Earthquake potential and seismic hazard in Southern Sumatra, Indonesia: Insights from different GNSS velocity sets. <em>Journal of Asian Earth Sciences</em>, <em>311</em>, 107217. <a href="https://doi.org/10.1016/j.jseaes.2026.107217">https://doi.org/10.1016/j.jseaes.2026.107217</a></li>
+      <li style="margin-bottom: 15px; padding-left: 20px; text-indent: -20px;">Antosia, R. M., Endryanti, W. M., Farduwin, A., Rizki, R., & <strong>Styawan, Y.</strong> (2026). Soil characterization for seismic vulnerability and preliminary subsidence assessment based on microtremor analysis in Sukarame District, Bandar Lampung. <em>Journal of Degraded and Mining Lands Management</em>, <em>13</em>(3), 10439-10450. <a href="https://doi.org/10.15243/jdmlm.2026.133.10439">https://doi.org/10.15243/jdmlm.2026.133.10439</a></li>
+      <li style="margin-bottom: 15px; padding-left: 20px; text-indent: -20px;">Junian, W. E., <strong>Styawan, Y.</strong>, Prasetyo, N., & Paembonan, A. Y. (2026). Applying the one-to-one-based optimizer (OOBO) algorithm for one-dimensional inversion modeling of magnetotellurics data. <em>Pure and Applied Geophysics</em>, <em>183</em>(6), 2873-2890. <a href="https://doi.org/10.1007/s00024-026-03998-x">https://doi.org/10.1007/s00024-026-03998-x</a></li>
+    </ul>
+    <div style="text-align: center; margin-top: 15px;">
+      <a href="/publications/" class="btn btn--info btn--small"><i class="fas fa-list-ul"></i> View All Selected Publications</a>
+    </div>
+  </section>
 
     <!-- GRANTS -->
   <section class="home-section compact-section mt-2">
