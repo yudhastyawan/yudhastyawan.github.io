@@ -38,14 +38,16 @@ redirect_from:
       <a href="https://tg.itera.ac.id/dosen-dan-tendik/" target="_blank"><img src="https://img.shields.io/badge/ITERA_Profile-FFC107?style=for-the-badge&logoColor=black" alt="ITERA Profile" /></a>
     </div>
 
-    <div style="text-align: center; margin-top: 20px;">
-      <p style="margin-bottom: 10px; font-weight: bold; color: #555;">Download my Curriculum Vitae:</p>
-      <div class="cv-download-buttons" style="display: flex; gap: 10px; justify-content: center;">
-        <a href="/assets/pdf/Yudha_Styawan_CV_EN.pdf" download class="btn btn--info btn--small" style="text-align: center;"><i class="fas fa-file-pdf"></i> CV (English)</a>
-        <a href="/assets/pdf/Yudha_Styawan_CV_ID.pdf" download class="btn btn--primary btn--small" style="text-align: center; background-color: #2c3e50; border-color: #2c3e50;"><i class="fas fa-file-pdf"></i> CV (Indonesian)</a>
-      </div>
-    </div>
   </section>
+
+  <!-- CV DOWNLOAD BANNER -->
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; margin: 0 0 30px 0; background: #f8f9fa; padding: 15px 20px; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+    <span style="font-weight: 600; margin-right: 15px; color: #333; font-size: 1.1em;"><i class="fas fa-file-pdf" style="color: #e74c3c;"></i> Download Curriculum Vitae:</span>
+    <div style="display: flex; gap: 10px;">
+      <a href="/assets/pdf/Yudha_Styawan_CV_EN.pdf" download class="btn btn--info btn--small" style="margin: 0;"><i class="fas fa-download"></i> English</a>
+      <a href="/assets/pdf/Yudha_Styawan_CV_ID.pdf" download class="btn btn--primary btn--small" style="margin: 0; background-color: #2c3e50; border-color: #2c3e50;"><i class="fas fa-download"></i> Indonesian</a>
+    </div>
+  </div>
 
   <!-- TWO COLUMN LAYOUT -->
   <div class="home-two-column">
